@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name adaptadora-rescue)(type Legacy)(uri ${KIPRJMOD}/adaptadora-rescue.lib)(options "")(descr ""))
+)
