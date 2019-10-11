@@ -1,3 +1,8 @@
 (sym_lib_table
   (lib (name adaptadora-rescue)(type Legacy)(uri ${KIPRJMOD}/adaptadora-rescue.lib)(options "")(descr ""))
+  (lib (name SH-rescue)(type Legacy)(uri C:/Users/delar/placaAdaptadora/SH/SH-rescue.lib)(options "")(descr ""))
+  (lib (name LM361MX_NOPB)(type Legacy)(uri C:/Users/delar/tp-dci--migueledvc/LM361MX_NOPB.lib)(options "")(descr ""))
+  (lib (name SN74LVC2T45DCTR)(type Legacy)(uri ${KIPRJMOD}/SN74LVC2T45DCTR.lib)(options "")(descr ""))
+  (lib (name TLV2772IDR)(type Legacy)(uri ${KIPRJMOD}/TLV2772IDR.lib)(options "")(descr ""))
+  (lib (name sincronismo-rescue)(type Legacy)(uri ${KIPRJMOD}/sincronismo-rescue.lib)(options "")(descr ""))
 )

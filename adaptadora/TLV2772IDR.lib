@@ -1,0 +1,32 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# TLV2772IDR
+#
+DEF TLV2772IDR U 0 40 Y Y 1 L N
+F0 "U" -223 480 50 H V L BNN
+F1 "TLV2772IDR" -141 -822 50 H V L BNN
+F2 "SOIC127P600X175-8N" 0 -450 50 H I L BNN
+F3 "296-1902-1-ND" 0 -450 50 H I L BNN
+F4 "Texas Instruments" 0 -450 50 H I L BNN
+F5 "Dual 2.7-V High Slew Rate Rail-To-Rail Output Operational Amplifier 8-SOIC -40 to 125" 0 -450 50 H I L BNN
+F6 "TLV2772IDR" 0 -450 50 H I L BNN
+F7 "https://www.digikey.com/product-detail/en/texas-instruments/TLV2772IDR/296-1902-1-ND/405014?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" 0 -450 50 H I L BNN
+F8 "SOIC-8 Texas Instruments" 0 -450 50 H I L BNN
+DRAW
+P 2 0 0 16 -500 -700 500 -700 N
+P 2 0 0 16 -500 400 -500 -700 N
+P 2 0 0 16 500 -700 500 400 N
+P 2 0 0 16 500 400 -500 400 N
+X 1OUT 1 700 200 200 L 40 40 0 0 O
+X 1IN- 2 700 300 200 L 40 40 0 0 I
+X 1IN+ 3 -700 0 200 R 40 40 0 0 I
+X GND 4 -700 -500 200 R 40 40 0 0 P
+X 2IN+ 5 -700 -300 200 R 40 40 0 0 I
+X 2IN- 6 700 0 200 L 40 40 0 0 I
+X 2OUT 7 700 100 200 L 40 40 0 0 O
+X VDD 8 -700 200 200 R 40 40 0 0 W
+ENDDRAW
+ENDDEF
+#
+#End Library

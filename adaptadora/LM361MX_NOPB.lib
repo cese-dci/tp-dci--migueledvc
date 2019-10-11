@@ -1,0 +1,40 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# LM361MX/NOPB
+#
+DEF LM361MX/NOPB U 0 40 Y Y 1 L N
+F0 "U" -196 526 50 H V L BNN
+F1 "LM361MX/NOPB" -284 -917 50 H V L BNN
+F2 "SOIC127P600X175-14N" 0 0 50 H I L BNN
+F3 "SOIC-14 Texas Instruments" 0 0 50 H I L BNN
+F4 "Unavailable" 0 0 50 H I L BNN
+F5 "None" 0 0 50 H I L BNN
+F6 "LM361MX/NOPB" 0 0 50 H I L BNN
+F7 "High Speed Differential Comparator 14-SOIC 0 to 70" 0 0 50 H I L BNN
+F8 "Texas Instruments" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 16 -500 500 -500 -800 N
+P 2 0 0 16 -500 -800 500 -800 N
+P 2 0 0 16 500 -800 500 500 N
+P 2 0 0 16 500 500 -500 500 N
+X +IN 3 -700 300 200 R 40 40 0 0 I 
+X -IN 4 -700 200 200 R 40 40 0 0 I 
+X V- 6 -700 0 200 R 40 40 0 0 P 
+X V+ 1 -700 -100 200 R 40 40 0 0 P 
+X VCC 14 -700 -300 200 R 40 40 0 0 P 
+X GND 10 -700 -600 200 R 40 40 0 0 P 
+X NC_2 7 700 -600 200 L 40 40 0 0 P 
+X NC_3 12 700 -500 200 L 40 40 0 0 P 
+X NC_4 5 700 -400 200 L 40 40 0 0 P 
+X NC 2 700 -300 200 L 40 40 0 0 P 
+X STROBE2 8 700 -100 200 L 40 40 0 0 P 
+X STROBE1 13 700 0 200 L 40 40 0 0 P 
+X OUT- 9 700 100 200 L 40 40 0 0 O 
+X OUT+ 11 700 300 200 L 40 40 0 0 O 
+ENDDRAW
+ENDDEF
+#
+# End Library
