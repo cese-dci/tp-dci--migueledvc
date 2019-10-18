@@ -811,18 +811,18 @@ Connection ~ 8150 1900
 Wire Wire Line
 	6750 6400 6750 5800
 Wire Wire Line
-	6750 5800 1300 5800
+	6750 5800 1900 5800
 Wire Wire Line
-	1300 5800 1300 4650
+	1900 5800 1900 4650
 Wire Wire Line
 	6050 6400 6750 6400
 Wire Wire Line
-	1300 4650 2400 4650
+	1900 4650 2400 4650
 Text Label 6250 6400 0    50   ~ 0
 V_COMP
 Text Label 3700 5800 0    50   ~ 0
 V_COMP
-Text Label 1700 4650 0    50   ~ 0
+Text Label 1950 4650 0    50   ~ 0
 V_COMP
 Text Label 6900 1900 0    50   ~ 0
 VIDEO_DIGITAL
@@ -1049,12 +1049,12 @@ Wire Wire Line
 $Comp
 L power:GND #PWR013
 U 1 1 5DAF1F2B
-P 6700 3800
-F 0 "#PWR013" H 6700 3550 50  0001 C CNN
-F 1 "GND" H 6705 3627 50  0000 C CNN
-F 2 "" H 6700 3800 50  0001 C CNN
-F 3 "" H 6700 3800 50  0001 C CNN
-	1    6700 3800
+P 6550 3750
+F 0 "#PWR013" H 6550 3500 50  0001 C CNN
+F 1 "GND" H 6555 3577 50  0000 C CNN
+F 2 "" H 6550 3750 50  0001 C CNN
+F 3 "" H 6550 3750 50  0001 C CNN
+	1    6550 3750
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1089,13 +1089,9 @@ Wire Wire Line
 Wire Wire Line
 	7750 3900 7750 3650
 Wire Wire Line
-	6700 3800 6700 3750
-Wire Wire Line
 	6800 3750 6800 3900
 Wire Wire Line
 	6800 3900 7000 3900
-Wire Wire Line
-	6700 3750 6800 3750
 Text GLabel 7000 4100 0    50   Input ~ 0
 DAC_CLK
 Wire Wire Line
@@ -1183,11 +1179,9 @@ Entry Wire Line
 Entry Wire Line
 	6400 2500 6500 2400
 Wire Bus Line
-	6500 2400 7450 2400
-Text Label 6500 2400 0    50   ~ 0
+	6500 2400 7050 2400
+Text Label 6550 2400 0    50   ~ 0
 DAC[7..0]
-Wire Bus Line
-	7050 2500 7050 3350
 Connection ~ 7050 3350
 Wire Bus Line
 	7050 3350 7950 3350
@@ -1261,6 +1255,28 @@ Wire Notes Line
 	700  3850 3600 3850
 Wire Notes Line
 	3600 600  3600 3850
+Text Notes 1850 600  0    0    ~ 0
+VIDEO PRIMARIO 1 Y 2\nEntradas
+Text Notes 3550 900  2    50   ~ 10
+Video Primario\nEntrada Radar\nSalida ADC-SoC
+Text Notes 8400 3150 0    50   ~ 10
+Entrada Fuente
+Text Notes 600  5800 0    50   ~ 10
+Video Secundario\nEntrada
+Wire Notes Line
+	950  5850 1050 5950
+Wire Notes Line
+	600  5850 950  5850
+Wire Notes Line
+	5200 4900 5350 5200
+Text Notes 5400 5150 0    50   ~ 0
+ARP\nSalida NTP Server
+Wire Notes Line
+	5350 5200 6100 5200
+Wire Bus Line
+	7050 2400 7050 3350
+Wire Wire Line
+	6550 3750 6800 3750
 Wire Bus Line
 	6300 3350 6300 4400
 Wire Bus Line
