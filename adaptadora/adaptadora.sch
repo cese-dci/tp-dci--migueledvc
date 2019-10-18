@@ -1283,4 +1283,10 @@ Wire Bus Line
 	7950 3350 7950 4300
 Wire Bus Line
 	6500 2400 6500 3100
+Text Notes 4350 2450 0    50   ~ 10
+Señales\nEntrada ADC-SoC
+Text Notes 5650 4000 0    50   ~ 0
+GPIO ADC_SoC
+Text Notes 7200 6050 0    50   ~ 0
+DAC
 $EndSCHEMATC

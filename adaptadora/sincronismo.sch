@@ -1761,4 +1761,22 @@ Wire Wire Line
 Wire Wire Line
 	10350 5150 10650 5150
 Connection ~ 10650 5350
+Wire Notes Line
+	800  750  850  650 
+Text Notes 850  650  0    50   ~ 0
+PRF\nEntrada Radar
+Wire Notes Line
+	850  650  1400 650 
+Wire Notes Line
+	800  2900 850  2800
+Text Notes 850  2800 0    50   ~ 0
+ACP\nEntrada Radar
+Wire Notes Line
+	850  2800 1400 2800
+Wire Notes Line
+	800  5000 850  4900
+Text Notes 850  4900 0    50   ~ 0
+ARP\nEntrada Radar
+Wire Notes Line
+	850  4900 1400 4900
 $EndSCHEMATC
