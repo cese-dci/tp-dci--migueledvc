@@ -510,9 +510,9 @@ F 3 "~" H 9650 1500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text GLabel 10650 2500 2    50   Input ~ 0
-ACP_Gpio
+ACP_3P3
 Text GLabel 10650 2300 2    50   Input ~ 0
-PRF_Gpio
+PRF_3P3
 $Comp
 L Logic_LevelTranslator:SN74LVC2T45DCUR U?
 U 1 1 5DA3673D
@@ -1624,9 +1624,9 @@ F 3 "~" H 9700 3950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text GLabel 10700 4950 2    50   Input ~ 0
-VCOMP_Gpio
+VCOMP_3P3
 Text GLabel 10700 4750 2    50   Input ~ 0
-PRF_Gpio
+PRF_3P3
 $Comp
 L Logic_LevelTranslator:SN74LVC2T45DCUR U?
 U 1 1 5E27ED18
