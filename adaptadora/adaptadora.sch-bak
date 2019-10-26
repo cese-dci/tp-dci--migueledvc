@@ -20,7 +20,7 @@ U 1 1 5DA88E41
 P 1650 4150
 F 0 "J1" H 1578 4388 50  0000 C CNN
 F 1 "Conn_Coaxial" H 1578 4297 50  0000 C CNN
-F 2 "" H 1650 4150 50  0001 C CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_901-144_Vertical" H 1650 4150 50  0001 C CNN
 F 3 " ~" H 1650 4150 50  0001 C CNN
 	1    1650 4150
 	-1   0    0    -1  
@@ -87,7 +87,7 @@ U 1 1 5DA90740
 P 3550 4300
 F 0 "J3" H 3650 4275 50  0000 L CNN
 F 1 "Conn_Coaxial" H 3650 4184 50  0000 L CNN
-F 2 "" H 3550 4300 50  0001 C CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_901-144_Vertical" H 3550 4300 50  0001 C CNN
 F 3 " ~" H 3550 4300 50  0001 C CNN
 	1    3550 4300
 	1    0    0    -1  
@@ -127,7 +127,7 @@ U 1 1 5DA9EE34
 P 1650 5750
 F 0 "J2" H 1578 5988 50  0000 C CNN
 F 1 "Conn_Coaxial" H 1578 5897 50  0000 C CNN
-F 2 "" H 1650 5750 50  0001 C CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_901-144_Vertical" H 1650 5750 50  0001 C CNN
 F 3 " ~" H 1650 5750 50  0001 C CNN
 	1    1650 5750
 	-1   0    0    -1  
@@ -194,7 +194,7 @@ U 1 1 5DA9EE59
 P 3550 5900
 F 0 "J4" H 3650 5875 50  0000 L CNN
 F 1 "Conn_Coaxial" H 3650 5784 50  0000 L CNN
-F 2 "" H 3550 5900 50  0001 C CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_901-144_Vertical" H 3550 5900 50  0001 C CNN
 F 3 " ~" H 3550 5900 50  0001 C CNN
 	1    3550 5900
 	1    0    0    -1  
@@ -260,7 +260,7 @@ U 1 1 5DB05046
 P 10100 1500
 F 0 "J10" H 9900 1400 50  0000 L CNN
 F 1 "Conn_Coaxial" H 9500 1300 50  0000 L CNN
-F 2 "" H 10100 1500 50  0001 C CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_901-144_Vertical" H 10100 1500 50  0001 C CNN
 F 3 " ~" H 10100 1500 50  0001 C CNN
 	1    10100 1500
 	1    0    0    -1  
@@ -271,7 +271,7 @@ U 1 1 5DB0504C
 P 10350 1400
 F 0 "J11" H 10450 1375 50  0000 L CNN
 F 1 "Conn_Coaxial" H 10450 1284 50  0000 L CNN
-F 2 "" H 10350 1400 50  0001 C CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_901-144_Vertical" H 10350 1400 50  0001 C CNN
 F 3 " ~" H 10350 1400 50  0001 C CNN
 	1    10350 1400
 	1    0    0    -1  
@@ -284,11 +284,10 @@ F 0 "U2_5" H 8950 2170 50  0000 C CNN
 F 1 "TLV2772IDR" H 8950 2079 50  0000 C CNN
 F 2 "SOIC127P600X175-8N" H 8950 1150 50  0001 L BNN
 F 3 "296-1902-1-ND" H 8950 1150 50  0001 L BNN
-F 4 "Texas Instruments" H 8950 1150 50  0001 L BNN "Campo4"
-F 5 "Dual 2.7-V High Slew Rate Rail-To-Rail Output Operational Amplifier 8-SOIC -40 to 125" H 8950 1150 50  0001 L BNN "Campo5"
-F 6 "TLV2772IDR" H 8950 1150 50  0001 L BNN "Campo6"
-F 7 "https://www.digikey.com/product-detail/en/texas-instruments/TLV2772IDR/296-1902-1-ND/405014?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" H 8950 1150 50  0001 L BNN "Campo7"
-F 8 "SOIC-8 Texas Instruments" H 8950 1150 50  0001 L BNN "Campo8"
+F 4 "Texas Instruments" H 8950 1150 50  0001 L BNN "Fabricante"
+F 5 "Dual 2.7-V High Slew Rate Rail-To-Rail Output Operational Amplifier 8-SOIC -40 to 125" H 8950 1150 50  0001 L BNN "Descripción (inglés)"
+F 6 "296-1902-1-ND" H 8950 1150 50  0001 L BNN "Número de Parte (Digi-Key)"
+F 7 "https://www.digikey.com/product-detail/en/texas-instruments/TLV2772IDR/296-1902-1-ND/405014?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" H 8950 1150 50  0001 L BNN "Enlace"
 	1    8950 1600
 	1    0    0    -1  
 $EndComp
