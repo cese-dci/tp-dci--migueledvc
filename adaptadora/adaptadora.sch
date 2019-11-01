@@ -271,7 +271,7 @@ U 1 1 5DB05057
 P 8950 1600
 F 0 "U25" H 8950 2170 50  0000 C CNN
 F 1 "TLV2772IDR" H 8950 2079 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_7.5x5.85mm_P1.27mm" H 8950 1150 50  0001 L BNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 8950 1150 50  0001 L BNN
 F 3 "296-1902-1-ND" H 8950 1150 50  0001 L BNN
 F 4 "Texas Instruments" H 8950 1150 50  0001 L BNN "Fabricante"
 F 5 "Dual 2.7-V High Slew Rate Rail-To-Rail Output Operational Amplifier 8-SOIC -40 to 125" H 8950 1150 50  0001 L BNN "Descripción (inglés)"
@@ -500,7 +500,6 @@ NoConn ~ 5400 3700
 NoConn ~ 5400 3600
 NoConn ~ 5400 3500
 NoConn ~ 5400 3400
-NoConn ~ 5400 3300
 NoConn ~ 4900 3800
 NoConn ~ 4900 3700
 NoConn ~ 4900 3600
@@ -511,7 +510,6 @@ NoConn ~ 4900 2600
 NoConn ~ 4900 2500
 NoConn ~ 4900 2400
 NoConn ~ 4900 2300
-NoConn ~ 5400 2400
 NoConn ~ 5400 2300
 NoConn ~ 5400 2200
 NoConn ~ 5400 2100
@@ -1028,18 +1026,12 @@ Wire Bus Line
 	6600 4250 7050 4250
 Text Notes 10950 2500 2    50   Italic 0
 U2_X: Amplificadores operacionales\nSalidas duplicadas para otros equipos\nTensión de salida: 5V
-Wire Bus Line
-	7050 4250 7050 5200
-Wire Bus Line
-	5200 4250 5200 5300
 Wire Wire Line
 	4900 2200 3800 2200
 Wire Wire Line
 	4900 2100 3600 2100
 Wire Wire Line
 	3600 2000 4900 2000
-Wire Bus Line
-	5750 2400 5750 3100
 NoConn ~ 4900 2700
 NoConn ~ 4900 2800
 NoConn ~ 4900 2900
@@ -1093,4 +1085,44 @@ F 3 "~" H 5100 2800 50  0001 C CNN
 	1    5100 2800
 	1    0    0    -1  
 $EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DCA4D84
+P 5600 3350
+F 0 "#PWR?" H 5600 3100 50  0001 C CNN
+F 1 "GND" H 5605 3177 50  0000 C CNN
+F 2 "" H 5600 3350 50  0001 C CNN
+F 3 "" H 5600 3350 50  0001 C CNN
+	1    5600 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DCA6205
+P 5650 2300
+F 0 "#PWR?" H 5650 2050 50  0001 C CNN
+F 1 "GND" H 5750 2300 50  0000 C CNN
+F 2 "" H 5650 2300 50  0001 C CNN
+F 3 "" H 5650 2300 50  0001 C CNN
+	1    5650 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 2400 5550 2400
+Wire Wire Line
+	5550 2400 5550 2250
+Wire Wire Line
+	5550 2250 5650 2250
+Wire Wire Line
+	5650 2250 5650 2300
+Wire Wire Line
+	5400 3300 5600 3300
+Wire Wire Line
+	5600 3300 5600 3350
+Wire Bus Line
+	7050 4250 7050 5200
+Wire Bus Line
+	5200 4250 5200 5300
+Wire Bus Line
+	5750 2400 5750 3100
 $EndSCHEMATC

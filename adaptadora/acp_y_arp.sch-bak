@@ -172,7 +172,7 @@ U 1 1 5DCAAD1C
 P 4100 2500
 F 0 "U11" H 4100 3170 50  0000 C CNN
 F 1 "LM361MX_NOPB" H 4100 3079 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 4100 2500 50  0001 L BNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 4100 2500 50  0001 L BNN
 F 3 "SOIC-14 Texas Instruments" H 4100 2500 50  0001 L BNN
 F 4 "Texas Instruments" H 4100 2500 50  0001 L BNN "Fabricante"
 F 5 "High Speed Differential Comparator 14-SOIC 0 to 70" H 4100 2500 50  0001 L BNN "Descripción (inglés)"
@@ -332,7 +332,7 @@ U 1 1 5DC9BD07
 P 7300 2250
 F 0 "U21" H 7300 2820 50  0000 C CNN
 F 1 "TLV2772IDR" H 7300 2729 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_7.5x5.85mm_P1.27mm" H 7300 2250 50  0001 L BNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 7300 2250 50  0001 L BNN
 F 3 "296-1902-1-ND" H 7300 2250 50  0001 L BNN
 F 4 "Texas Instruments" H 7300 2250 50  0001 L BNN "Fabricante"
 F 5 "Dual 2.7-V High Slew Rate Rail-To-Rail Output Operational Amplifier 8-SOIC -40 to 125" H 7300 2250 50  0001 L BNN "Descripción (inglés)"
@@ -684,7 +684,7 @@ U 1 1 5DCAAD2F
 P 4100 5200
 F 0 "U12" H 4100 5870 50  0000 C CNN
 F 1 "LM361MX_NOPB" H 4100 5779 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 4100 5200 50  0001 L BNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 4100 5200 50  0001 L BNN
 F 3 "SOIC-14 Texas Instruments" H 4100 5200 50  0001 L BNN
 F 4 "Texas Instruments" H 4100 5200 50  0001 L BNN "Fabricante"
 F 5 "High Speed Differential Comparator 14-SOIC 0 to 70" H 4100 5200 50  0001 L BNN "Descripción (inglés)"
@@ -833,7 +833,7 @@ U 1 1 5E2599A0
 P 7300 4650
 F 0 "U22" H 7300 5220 50  0000 C CNN
 F 1 "TLV2772IDR" H 7300 5129 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_7.5x5.85mm_P1.27mm" H 7300 4650 50  0001 L BNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 7300 4650 50  0001 L BNN
 F 3 "296-1902-1-ND" H 7300 4650 50  0001 L BNN
 F 4 "Texas Instruments" H 7300 4650 50  0001 L BNN "Fabricante"
 F 5 "Dual 2.7-V High Slew Rate Rail-To-Rail Output Operational Amplifier 8-SOIC -40 to 125" H 7300 4650 50  0001 L BNN "Descripción (inglés)"
