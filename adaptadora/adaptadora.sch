@@ -1140,12 +1140,12 @@ Wire Wire Line
 	5350 1050 5150 1050
 Wire Wire Line
 	5150 1050 5150 1150
+Text Notes 2850 5650 0    50   ~ 0
+JPx\nSelección de Carga de Entrada Rx\n\n
 Wire Bus Line
 	7050 4250 7050 5200
 Wire Bus Line
 	5200 4250 5200 5300
 Wire Bus Line
 	5750 2400 5750 3100
-Text Notes 2850 5650 0    50   ~ 0
-JPx\nSelección de Carga de Entrada Rx\n\n
 $EndSCHEMATC

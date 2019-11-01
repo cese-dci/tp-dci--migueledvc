@@ -31,7 +31,7 @@ U 1 1 5DA8C642
 P 2150 4550
 F 0 "JP1" V 2104 4637 50  0000 L CNN
 F 1 "Jumper_3_Open" V 2195 4637 50  0000 L CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_NumberLabels" H 2150 4550 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2150 4550 50  0001 C CNN
 F 3 "~" H 2150 4550 50  0001 C CNN
 	1    2150 4550
 	0    1    1    0   
@@ -138,7 +138,7 @@ U 1 1 5DA9EE3A
 P 2150 6150
 F 0 "JP2" V 2104 6237 50  0000 L CNN
 F 1 "Jumper_3_Open" V 2195 6237 50  0000 L CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_NumberLabels" H 2150 6150 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2150 6150 50  0001 C CNN
 F 3 "~" H 2150 6150 50  0001 C CNN
 	1    2150 6150
 	0    1    1    0   
@@ -1140,12 +1140,12 @@ Wire Wire Line
 	5350 1050 5150 1050
 Wire Wire Line
 	5150 1050 5150 1150
+Text Notes 2850 5650 0    50   ~ 0
+JPx\nSelección de Carga de Entrada Rx\n\n
 Wire Bus Line
 	7050 4250 7050 5200
 Wire Bus Line
 	5200 4250 5200 5300
 Wire Bus Line
 	5750 2400 5750 3100
-Text Notes 2850 5650 0    50   ~ 0
-JPx\nSelección de Carga de Entrada Rx\n\n
 $EndSCHEMATC

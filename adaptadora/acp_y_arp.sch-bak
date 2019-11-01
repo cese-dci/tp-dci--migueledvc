@@ -86,7 +86,7 @@ U 1 1 5DCAAD18
 P 1100 2400
 F 0 "JP3" V 1054 2487 50  0000 L CNN
 F 1 "Jumper_3_Open" V 1145 2487 50  0000 L CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_NumberLabels" H 1100 2400 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1100 2400 50  0001 C CNN
 F 3 "~" H 1100 2400 50  0001 C CNN
 	1    1100 2400
 	0    1    1    0   
@@ -226,7 +226,7 @@ U 1 1 5DC9BD05
 P 5400 2250
 F 0 "JP5" V 5354 2337 50  0000 L CNN
 F 1 "Jumper_3_Open" V 5445 2337 50  0000 L CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_NumberLabels" H 5400 2250 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5400 2250 50  0001 C CNN
 F 3 "~" H 5400 2250 50  0001 C CNN
 	1    5400 2250
 	0    -1   1    0   
@@ -551,7 +551,7 @@ U 1 1 5DCAAD2A
 P 1100 5100
 F 0 "JP4" V 1054 5187 50  0000 L CNN
 F 1 "Jumper_3_Open" V 1145 5187 50  0000 L CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_NumberLabels" H 1100 5100 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1100 5100 50  0001 C CNN
 F 3 "~" H 1100 5100 50  0001 C CNN
 	1    1100 5100
 	0    1    1    0   
@@ -736,7 +736,7 @@ U 1 1 5DC9BD29
 P 5400 4950
 F 0 "JP6" V 5354 5037 50  0000 L CNN
 F 1 "Jumper_3_Open" V 5445 5037 50  0000 L CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_NumberLabels" H 5400 4950 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5400 4950 50  0001 C CNN
 F 3 "~" H 5400 4950 50  0001 C CNN
 	1    5400 4950
 	0    -1   1    0   
@@ -1196,9 +1196,9 @@ JP3\nSelección de Carga de Entrada R3\n\n
 Text Notes 800  6400 0    50   ~ 0
 JP4\nSelección de Carga de Entrada R4\n\n
 Text Notes 5450 3600 2    50   ~ 0
-JP5\nSelección de Carga de Entrada R5\n\n
+JP5\nSelección salida negada\n\n
 Text Notes 5450 6400 2    50   ~ 0
-JP6\nSelección de Carga de Entrada R6\n\n
+JP6\nSelección salida negada\n\n
 Wire Wire Line
 	3250 6850 3250 6900
 Wire Wire Line
