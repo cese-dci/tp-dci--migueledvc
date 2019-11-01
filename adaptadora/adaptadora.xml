@@ -1,0 +1,1925 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\delar\tp-dci--migueledvc\adaptadora\adaptadora.sch</source>
+    <date>1/11/2019 11:09:17</date>
+    <tool>Eeschema (5.1.4)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Placa Adaptadora Diagrama Jerarquico</title>
+        <company>Diseño de Circuítos Impresos - CESE</company>
+        <rev>Rev 0</rev>
+        <date>2019-10-24</date>
+        <source>adaptadora.sch</source>
+        <comment number="1" value="Dibujó: Miguel del Valle"/>
+        <comment number="2" value="Revisó en segunda instancia: Diego Brengi"/>
+        <comment number="3" value="Revisó en primera instancia: Leandro Torrent"/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Señales de ACP y ARP/" tstamps="/5D9F8BB8/">
+      <title_block>
+        <title>Señales de Sincronismo de Acimut</title>
+        <company>Diseño de Circuítos Impresos - CESE</company>
+        <rev>Rev 0</rev>
+        <date>2019-10-24</date>
+        <source>acp_y_arp.sch</source>
+        <comment number="1" value="Dibujó: Miguel del Valle"/>
+        <comment number="2" value="Revisó en segunda instancia: Diego Brengi"/>
+        <comment number="3" value="Revisó en primera instancia: Leandro Torrent"/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Señales de Video Secundario y PRF/" tstamps="/5DB488E7/">
+      <title_block>
+        <title/>
+        <company>Diseño de Circuítos Impresos - CESE</company>
+        <rev>Rev 0</rev>
+        <date>2019-10-24</date>
+        <source>prf_y_sec.sch</source>
+        <comment number="1" value="Dibujó: Miguel del Valle"/>
+        <comment number="2" value="Revisó en segunda instancia: Diego Brengi"/>
+        <comment number="3" value="Revisó en primera instancia: Leandro Torrent"/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>Conn_Coaxial</value>
+      <footprint>Connector_Coaxial:SMA_Amphenol_901-144_Vertical</footprint>
+      <datasheet> ~</datasheet>
+      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA88E41</tstamp>
+    </comp>
+    <comp ref="JP1">
+      <value>Jumper_3_Open</value>
+      <footprint>Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_NumberLabels</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Jumper" part="Jumper_3_Open" description="Jumper, 3-pole, both open"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA8C642</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>50 - 1/2W - 5%</value>
+      <footprint>Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA8EAD4</tstamp>
+    </comp>
+    <comp ref="RV1">
+      <value>R_POT</value>
+      <footprint>Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA8F115</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>D_TVS</value>
+      <footprint>Diode_SMD:D_0201_0603Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_TVS" description="Bidirectional transient-voltage-suppression diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA90213</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_Coaxial</value>
+      <footprint>Connector_Coaxial:SMA_Amphenol_901-144_Vertical</footprint>
+      <datasheet> ~</datasheet>
+      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA90740</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_Coaxial</value>
+      <footprint>Connector_Coaxial:SMA_Amphenol_901-144_Vertical</footprint>
+      <datasheet> ~</datasheet>
+      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA9EE34</tstamp>
+    </comp>
+    <comp ref="JP2">
+      <value>Jumper_3_Open</value>
+      <footprint>Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_NumberLabels</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Jumper" part="Jumper_3_Open" description="Jumper, 3-pole, both open"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA9EE3A</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>50 - 1/2W - 5%</value>
+      <footprint>Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA9EE40</tstamp>
+    </comp>
+    <comp ref="RV2">
+      <value>R_POT</value>
+      <footprint>Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA9EE46</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>D_TVS</value>
+      <footprint>Diode_SMD:D_0201_0603Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_TVS" description="Bidirectional transient-voltage-suppression diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA9EE4C</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_Coaxial</value>
+      <footprint>Connector_Coaxial:SMA_Amphenol_901-144_Vertical</footprint>
+      <datasheet> ~</datasheet>
+      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA9EE59</tstamp>
+    </comp>
+    <comp ref="J10">
+      <value>Conn_Coaxial</value>
+      <footprint>Connector_Coaxial:SMA_Amphenol_901-144_Vertical</footprint>
+      <datasheet> ~</datasheet>
+      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DB05046</tstamp>
+    </comp>
+    <comp ref="J11">
+      <value>Conn_Coaxial</value>
+      <footprint>Connector_Coaxial:SMA_Amphenol_901-144_Vertical</footprint>
+      <datasheet> ~</datasheet>
+      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DB0504C</tstamp>
+    </comp>
+    <comp ref="U25">
+      <value>TLV2772IDR</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>296-1902-1-ND</datasheet>
+      <fields>
+        <field name="Descripción (inglés)">Dual 2.7-V High Slew Rate Rail-To-Rail Output Operational Amplifier 8-SOIC -40 to 125</field>
+        <field name="Enlace">https://www.digikey.com/product-detail/en/texas-instruments/TLV2772IDR/296-1902-1-ND/405014?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol</field>
+        <field name="Fabricante">Texas Instruments</field>
+        <field name="Número de Parte (Digi-Key)">296-1902-1-ND</field>
+      </fields>
+      <libsource lib="TLV2772IDR" part="TLV2772IDR" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DB05057</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>0.1uF-50V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DB05086</tstamp>
+    </comp>
+    <comp ref="J7">
+      <value>Conn_02x20_Odd_Even</value>
+      <footprint>Connector_PinHeader_2.00mm:PinHeader_2x20_P2.00mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_02x20_Odd_Even" description="Generic connector, double row, 02x20, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D77C709</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>Conn_01x02</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DAFCEAE</tstamp>
+    </comp>
+    <comp ref="J9">
+      <value>Conn_01x02</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D7CFA8E</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>2.2uF-35V</value>
+      <footprint>Capacitor_Tantalum_SMD:CP_EIA-6032-28_Kemet-C</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DB5CC35</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>2.2uF-35V</value>
+      <footprint>Capacitor_Tantalum_SMD:CP_EIA-6032-28_Kemet-C</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DB5C03E</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>0.1uF-50V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DB5A1C5</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>0.1uF-50V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DB59ED9</tstamp>
+    </comp>
+    <comp ref="J8">
+      <value>Conn_01x04</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D77C5FF</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>Conn_02x20_Odd_Even</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_02x20_Odd_Even" description="Generic connector, double row, 02x20, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D77C6C1</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>0.1uF-50V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DB5AECB</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>2.2uF-35V</value>
+      <footprint>Capacitor_Tantalum_SMD:CP_EIA-6032-28_Kemet-C</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DB5D689</tstamp>
+    </comp>
+    <comp ref="J12">
+      <value>Conn_Coaxial</value>
+      <footprint>Connector_Coaxial:SMA_Amphenol_901-144_Vertical</footprint>
+      <datasheet> ~</datasheet>
+      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)"/>
+      <sheetpath names="/Señales de ACP y ARP/" tstamps="/5D9F8BB8/"/>
+      <tstamp>5DCAAD17</tstamp>
+    </comp>
+    <comp ref="RV3">
+      <value>R_POT</value>
+      <footprint>Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
+      <sheetpath names="/Señales de ACP y ARP/" tstamps="/5D9F8BB8/"/>
+      <tstamp>5DC9BCF7</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>D_TVS</value>
+      <footprint>Diode_SMD:D_0201_0603Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_TVS" description="Bidirectional transient-voltage-suppression diode"/>
+      <sheetpath names="/Señales de ACP y ARP/" tstamps="/5D9F8BB8/"/>
+      <tstamp>5DCAAD1A</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>1uF-16V</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/Señales de ACP y ARP/" tstamps="/5D9F8BB8/"/>
+      <tstamp>5DC9BCFA</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>100 - 1/8W - 5%</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Señales de ACP y ARP/" tstamps="/5D9F8BB8/"/>
+      <tstamp>5DC9BCFC</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>50 - 1/2W - 5%</value>
+      <footprint>Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Señales de ACP y ARP/" tstamps="/5D9F8BB8/"/>
+      <tstamp>5DCAAD0F</tstamp>
+    </comp>
+    <comp ref="JP3">
+      <value>Jumper_3_Open</value>
+      <footprint>Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_NumberLabels</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Jumper" part="Jumper_3_Open" description="Jumper, 3-pole, both open"/>
+      <sheetpath names="/Señales de ACP y ARP/" tstamps="/5D9F8BB8/"/>
+      <tstamp>5DCAAD18</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>0.1uF-50V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Señales de ACP y ARP/" tstamps="/5D9F8BB8/"/>
+      <tstamp>5DCAAD0C</tstamp>
+    </comp>
+    <comp ref="U11">
+      <value>LM361MX_NOPB</value>
+      <footprint>Package_SO:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
+      <datasheet>SOIC-14 Texas Instruments</datasheet>
+      <fields>
+        <field name="Descripción (inglés)">High Speed Differential Comparator 14-SOIC 0 to 70</field>
+        <field name="Enlace">https://www.digikey.com/product-detail/en/texas-instruments/LM361MX-NOPB/296-47682-1-ND/3526971</field>
+        <field name="Fabricante">Texas Instruments</field>
+        <field name="Número de parte (Digi-Key)">296-47682-1-ND</field>
+      </fields>
+      <libsource lib="sincronismo-rescue" part="LM361MX_NOPB-LM361MX_NOPB" description=""/>
+      <sheetpath names="/Señales de ACP y ARP/" tstamps="/5D9F8BB8/"/>
+      <tstamp>5DCAAD1C</tstamp>
+    </comp>
+    <comp ref="JP5">
+      <value>Jumper_3_Open</value>
+      <footprint>Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_NumberLabels</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Jumper" part="Jumper_3_Open" description="Jumper, 3-pole, both open"/>
+      <sheetpath names="/Señales de ACP y ARP/" tstamps="/5D9F8BB8/"/>
+      <tstamp>5DC9BD05</tstamp>
+    </comp>
+    <comp ref="TP1">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/Señales de ACP y ARP/" tstamps="/5D9F8BB8/"/>
+      <tstamp>5DCAAD21</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>0.1uF-50V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Señales de ACP y ARP/" tstamps="/5D9F8BB8/"/>
+      <tstamp>5DB2F954</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>0.1uF-50V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Señales de ACP y ARP/" tstamps="/5D9F8BB8/"/>
+      <tstamp>5DCAAD24</tstamp>
+    </comp>
+    <comp ref="U21">
+      <value>TLV2772IDR</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>296-1902-1-ND</datasheet>
+      <fields>
+        <field name="Descripción (inglés)">Dual 2.7-V High Slew Rate Rail-To-Rail Output Operational Amplifier 8-SOIC -40 to 125</field>
+        <field name="Enlace">https://www.digikey.com/product-detail/en/texas-instruments/TLV2772IDR/296-1902-1-ND/405014?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol</field>
+        <field name="Fabricante">Texas Instruments</field>
+        <field name="Número de Parte (Digi-Key)">296-1902-1-ND</field>
+      </fields>
+      <libsource lib="TLV2772IDR" part="TLV2772IDR" description=""/>
+      <sheetpath names="/Señales de ACP y ARP/" tstamps="/5D9F8BB8/"/>
+      <tstamp>5DC9BD07</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>0.1uF-50V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Señales de ACP y ARP/" tstamps="/5D9F8BB8/"/>
+      <tstamp>5DCAAD26</tstamp>
+    </comp>
+    <comp ref="U31">
+      <value>SN74LVC2T45DCUR</value>
+      <footprint>Package_SO:VSSOP-8_2.4x2.1mm_P0.5mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/sn74lvc2t45.pdf</datasheet>
+      <libsource lib="Logic_LevelTranslator" part="SN74LVC2T45DCUR" description="Dual-Bit Dual-Supply Bus Transceiver With Configurable Voltage Translation and 3-State Outputs, VSSOP-8"/>
+      <sheetpath names="/Señales de ACP y ARP/" tstamps="/5D9F8BB8/"/>
+      <tstamp>5DCAAD0E</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>0.1uF-50V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Señales de ACP y ARP/" tstamps="/5D9F8BB8/"/>
+      <tstamp>5DCAAD0D</tstamp>
+    </comp>
+    <comp ref="J13">
+      <value>Conn_Coaxial</value>
+      <footprint>Connector_Coaxial:SMA_Amphenol_901-144_Vertical</footprint>
+      <datasheet> ~</datasheet>
+      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)"/>
+      <sheetpath names="/Señales de ACP y ARP/" tstamps="/5D9F8BB8/"/>
+      <tstamp>5DCAAD3D</tstamp>
+    </comp>
+    <comp ref="RV4">
+      <value>R_POT</value>
+      <footprint>Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
+      <sheetpath names="/Señales de ACP y ARP/" tstamps="/5D9F8BB8/"/>
+      <tstamp>5DCAAD3E</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>D_TVS</value>
+      <footprint>Diode_SMD:D_0201_0603Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_TVS" description="Bidirectional transient-voltage-suppression diode"/>
+      <sheetpath names="/Señales de ACP y ARP/" tstamps="/5D9F8BB8/"/>
+      <tstamp>5DCAAD3F</tstamp>
+    </comp>
+    <comp ref="RV6">
+      <value>R_POT</value>
+      <footprint>Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
+      <sheetpath names="/Señales de ACP y ARP/" tstamps="/5D9F8BB8/"/>
+      <tstamp>5DCAAD40</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>1uF-16V</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/Señales de ACP y ARP/" tstamps="/5D9F8BB8/"/>
+      <tstamp>5DCAAD41</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>100 - 1/8W - 5%</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Señales de ACP y ARP/" tstamps="/5D9F8BB8/"/>
+      <tstamp>5DCAAD42</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>50 - 1/2W - 5%</value>
+      <footprint>Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Señales de ACP y ARP/" tstamps="/5D9F8BB8/"/>
+      <tstamp>5DCAAD43</tstamp>
+    </comp>
+    <comp ref="JP4">
+      <value>Jumper_3_Open</value>
+      <footprint>Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_NumberLabels</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Jumper" part="Jumper_3_Open" description="Jumper, 3-pole, both open"/>
+      <sheetpath names="/Señales de ACP y ARP/" tstamps="/5D9F8BB8/"/>
+      <tstamp>5DCAAD2A</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>0.1uF-50V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Señales de ACP y ARP/" tstamps="/5D9F8BB8/"/>
+      <tstamp>5E259930</tstamp>
+    </comp>
+    <comp ref="U12">
+      <value>LM361MX_NOPB</value>
+      <footprint>Package_SO:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
+      <datasheet>SOIC-14 Texas Instruments</datasheet>
+      <fields>
+        <field name="Descripción (inglés)">High Speed Differential Comparator 14-SOIC 0 to 70</field>
+        <field name="Enlace">https://www.digikey.com/product-detail/en/texas-instruments/LM361MX-NOPB/296-47682-1-ND/3526971</field>
+        <field name="Fabricante">Texas Instruments</field>
+        <field name="Número de parte (Digi-Key)">296-47682-1-ND</field>
+      </fields>
+      <libsource lib="sincronismo-rescue" part="LM361MX_NOPB-LM361MX_NOPB" description=""/>
+      <sheetpath names="/Señales de ACP y ARP/" tstamps="/5D9F8BB8/"/>
+      <tstamp>5DCAAD2F</tstamp>
+    </comp>
+    <comp ref="JP6">
+      <value>Jumper_3_Open</value>
+      <footprint>Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_NumberLabels</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Jumper" part="Jumper_3_Open" description="Jumper, 3-pole, both open"/>
+      <sheetpath names="/Señales de ACP y ARP/" tstamps="/5D9F8BB8/"/>
+      <tstamp>5DC9BD29</tstamp>
+    </comp>
+    <comp ref="TP2">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/Señales de ACP y ARP/" tstamps="/5D9F8BB8/"/>
+      <tstamp>5DCAAD46</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>0.1uF-50V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Señales de ACP y ARP/" tstamps="/5D9F8BB8/"/>
+      <tstamp>5DCAAD47</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>0.1uF-50V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Señales de ACP y ARP/" tstamps="/5D9F8BB8/"/>
+      <tstamp>5E259978</tstamp>
+    </comp>
+    <comp ref="U22">
+      <value>TLV2772IDR</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>296-1902-1-ND</datasheet>
+      <fields>
+        <field name="Descripción (inglés)">Dual 2.7-V High Slew Rate Rail-To-Rail Output Operational Amplifier 8-SOIC -40 to 125</field>
+        <field name="Enlace">https://www.digikey.com/product-detail/en/texas-instruments/TLV2772IDR/296-1902-1-ND/405014?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol</field>
+        <field name="Fabricante">Texas Instruments</field>
+        <field name="Número de Parte (Digi-Key)">296-1902-1-ND</field>
+      </fields>
+      <libsource lib="TLV2772IDR" part="TLV2772IDR" description=""/>
+      <sheetpath names="/Señales de ACP y ARP/" tstamps="/5D9F8BB8/"/>
+      <tstamp>5E2599A0</tstamp>
+    </comp>
+    <comp ref="J17">
+      <value>Conn_Coaxial</value>
+      <footprint>Connector_Coaxial:SMA_Amphenol_901-144_Vertical</footprint>
+      <datasheet> ~</datasheet>
+      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)"/>
+      <sheetpath names="/Señales de ACP y ARP/" tstamps="/5D9F8BB8/"/>
+      <tstamp>5E2599A6</tstamp>
+    </comp>
+    <comp ref="J15">
+      <value>Conn_Coaxial</value>
+      <footprint>Connector_Coaxial:SMA_Amphenol_901-144_Vertical</footprint>
+      <datasheet> ~</datasheet>
+      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)"/>
+      <sheetpath names="/Señales de ACP y ARP/" tstamps="/5D9F8BB8/"/>
+      <tstamp>5E2599AC</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>0.1uF-50V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Señales de ACP y ARP/" tstamps="/5D9F8BB8/"/>
+      <tstamp>5DCAAD33</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>0.1uF-50V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Señales de ACP y ARP/" tstamps="/5D9F8BB8/"/>
+      <tstamp>5E08C2FE</tstamp>
+    </comp>
+    <comp ref="RV5">
+      <value>R_POT</value>
+      <footprint>Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
+      <sheetpath names="/Señales de ACP y ARP/" tstamps="/5D9F8BB8/"/>
+      <tstamp>5DCAAD0B</tstamp>
+    </comp>
+    <comp ref="J16">
+      <value>Conn_Coaxial</value>
+      <footprint>Connector_Coaxial:SMA_Amphenol_901-144_Vertical</footprint>
+      <datasheet> ~</datasheet>
+      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)"/>
+      <sheetpath names="/Señales de ACP y ARP/" tstamps="/5D9F8BB8/"/>
+      <tstamp>5DD655E5</tstamp>
+    </comp>
+    <comp ref="J14">
+      <value>Conn_Coaxial</value>
+      <footprint>Connector_Coaxial:SMA_Amphenol_901-144_Vertical</footprint>
+      <datasheet> ~</datasheet>
+      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)"/>
+      <sheetpath names="/Señales de ACP y ARP/" tstamps="/5D9F8BB8/"/>
+      <tstamp>5DD655EB</tstamp>
+    </comp>
+    <comp ref="J18">
+      <value>Conn_Coaxial</value>
+      <footprint>Connector_Coaxial:SMA_Amphenol_901-144_Vertical</footprint>
+      <datasheet> ~</datasheet>
+      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)"/>
+      <sheetpath names="/Señales de Video Secundario y PRF/" tstamps="/5DB488E7/"/>
+      <tstamp>5DC9BCF5</tstamp>
+    </comp>
+    <comp ref="RV7">
+      <value>R_POT</value>
+      <footprint>Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
+      <sheetpath names="/Señales de Video Secundario y PRF/" tstamps="/5DB488E7/"/>
+      <tstamp>5DCAAD19</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>D_TVS</value>
+      <footprint>Diode_SMD:D_0201_0603Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_TVS" description="Bidirectional transient-voltage-suppression diode"/>
+      <sheetpath names="/Señales de Video Secundario y PRF/" tstamps="/5DB488E7/"/>
+      <tstamp>5DC9BCF8</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>1uF-16V</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/Señales de Video Secundario y PRF/" tstamps="/5DB488E7/"/>
+      <tstamp>5DCAAD1B</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>100 - 1/8W - 5%</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Señales de Video Secundario y PRF/" tstamps="/5DB488E7/"/>
+      <tstamp>5DCAAD1D</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>50 - 1/2W - 5%</value>
+      <footprint>Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Señales de Video Secundario y PRF/" tstamps="/5DB488E7/"/>
+      <tstamp>5DA3AF15</tstamp>
+    </comp>
+    <comp ref="JP7">
+      <value>Jumper_3_Open</value>
+      <footprint>Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_NumberLabels</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Jumper" part="Jumper_3_Open" description="Jumper, 3-pole, both open"/>
+      <sheetpath names="/Señales de Video Secundario y PRF/" tstamps="/5DB488E7/"/>
+      <tstamp>5DC9BCF6</tstamp>
+    </comp>
+    <comp ref="C22">
+      <value>0.1uF-50V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Señales de Video Secundario y PRF/" tstamps="/5DB488E7/"/>
+      <tstamp>5DA28199</tstamp>
+    </comp>
+    <comp ref="U13">
+      <value>LM361MX_NOPB</value>
+      <footprint>Package_SO:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
+      <datasheet>SOIC-14 Texas Instruments</datasheet>
+      <fields>
+        <field name="Descripción (inglés)">High Speed Differential Comparator 14-SOIC 0 to 70</field>
+        <field name="Enlace">https://www.digikey.com/product-detail/en/texas-instruments/LM361MX-NOPB/296-47682-1-ND/3526971</field>
+        <field name="Fabricante">Texas Instruments</field>
+        <field name="Número de parte (Digi-Key)">296-47682-1-ND</field>
+      </fields>
+      <libsource lib="sincronismo-rescue" part="LM361MX_NOPB-LM361MX_NOPB" description=""/>
+      <sheetpath names="/Señales de Video Secundario y PRF/" tstamps="/5DB488E7/"/>
+      <tstamp>5DC9BCFB</tstamp>
+    </comp>
+    <comp ref="JP9">
+      <value>Jumper_3_Open</value>
+      <footprint>Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_NumberLabels</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Jumper" part="Jumper_3_Open" description="Jumper, 3-pole, both open"/>
+      <sheetpath names="/Señales de Video Secundario y PRF/" tstamps="/5DB488E7/"/>
+      <tstamp>5DCAAD20</tstamp>
+    </comp>
+    <comp ref="TP3">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/Señales de Video Secundario y PRF/" tstamps="/5DB488E7/"/>
+      <tstamp>5DC9BD06</tstamp>
+    </comp>
+    <comp ref="C24">
+      <value>0.1uF-50V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Señales de Video Secundario y PRF/" tstamps="/5DB488E7/"/>
+      <tstamp>5DCAAD13</tstamp>
+    </comp>
+    <comp ref="C26">
+      <value>0.1uF-50V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Señales de Video Secundario y PRF/" tstamps="/5DB488E7/"/>
+      <tstamp>5DC9BD0B</tstamp>
+    </comp>
+    <comp ref="U23">
+      <value>TLV2772IDR</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>296-1902-1-ND</datasheet>
+      <fields>
+        <field name="Campo4">Texas Instruments</field>
+        <field name="Campo5">Dual 2.7-V High Slew Rate Rail-To-Rail Output Operational Amplifier 8-SOIC -40 to 125</field>
+        <field name="Campo6">TLV2772IDR</field>
+        <field name="Campo7">https://www.digikey.com/product-detail/en/texas-instruments/TLV2772IDR/296-1902-1-ND/405014?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol</field>
+        <field name="Campo8">SOIC-8 Texas Instruments</field>
+      </fields>
+      <libsource lib="TLV2772IDR" part="TLV2772IDR" description=""/>
+      <sheetpath names="/Señales de Video Secundario y PRF/" tstamps="/5DB488E7/"/>
+      <tstamp>5DCAAD22</tstamp>
+    </comp>
+    <comp ref="C31">
+      <value>0.1uF-50V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Señales de Video Secundario y PRF/" tstamps="/5DB488E7/"/>
+      <tstamp>5DC9BD13</tstamp>
+    </comp>
+    <comp ref="U32">
+      <value>SN74LVC2T45DCUR</value>
+      <footprint>Package_SO:VSSOP-8_2.4x2.1mm_P0.5mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/sn74lvc2t45.pdf</datasheet>
+      <libsource lib="Logic_LevelTranslator" part="SN74LVC2T45DCUR" description="Dual-Bit Dual-Supply Bus Transceiver With Configurable Voltage Translation and 3-State Outputs, VSSOP-8"/>
+      <sheetpath names="/Señales de Video Secundario y PRF/" tstamps="/5DB488E7/"/>
+      <tstamp>5DA3673D</tstamp>
+    </comp>
+    <comp ref="C28">
+      <value>0.1uF-50V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Señales de Video Secundario y PRF/" tstamps="/5DB488E7/"/>
+      <tstamp>5DA2B4C0</tstamp>
+    </comp>
+    <comp ref="J19">
+      <value>Conn_Coaxial</value>
+      <footprint>Connector_Coaxial:SMA_Amphenol_901-144_Vertical</footprint>
+      <datasheet> ~</datasheet>
+      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)"/>
+      <sheetpath names="/Señales de Video Secundario y PRF/" tstamps="/5DB488E7/"/>
+      <tstamp>5E2598CA</tstamp>
+    </comp>
+    <comp ref="RV8">
+      <value>R_POT</value>
+      <footprint>Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
+      <sheetpath names="/Señales de Video Secundario y PRF/" tstamps="/5DB488E7/"/>
+      <tstamp>5E2598D0</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>D_TVS</value>
+      <footprint>Diode_SMD:D_0201_0603Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_TVS" description="Bidirectional transient-voltage-suppression diode"/>
+      <sheetpath names="/Señales de Video Secundario y PRF/" tstamps="/5DB488E7/"/>
+      <tstamp>5E2598D6</tstamp>
+    </comp>
+    <comp ref="RV10">
+      <value>R_POT</value>
+      <footprint>Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
+      <sheetpath names="/Señales de Video Secundario y PRF/" tstamps="/5DB488E7/"/>
+      <tstamp>5E2598DC</tstamp>
+    </comp>
+    <comp ref="C21">
+      <value>1uF-16V</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/Señales de Video Secundario y PRF/" tstamps="/5DB488E7/"/>
+      <tstamp>5E2598E2</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>100 - 1/8W - 5%</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Señales de Video Secundario y PRF/" tstamps="/5DB488E7/"/>
+      <tstamp>5E2598E8</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>50 - 1/2W - 5%</value>
+      <footprint>Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Señales de Video Secundario y PRF/" tstamps="/5DB488E7/"/>
+      <tstamp>5E2598EE</tstamp>
+    </comp>
+    <comp ref="JP8">
+      <value>Jumper_3_Open</value>
+      <footprint>Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_NumberLabels</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Jumper" part="Jumper_3_Open" description="Jumper, 3-pole, both open"/>
+      <sheetpath names="/Señales de Video Secundario y PRF/" tstamps="/5DB488E7/"/>
+      <tstamp>5DC9BD20</tstamp>
+    </comp>
+    <comp ref="C23">
+      <value>0.1uF-50V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Señales de Video Secundario y PRF/" tstamps="/5DB488E7/"/>
+      <tstamp>5DCAAD45</tstamp>
+    </comp>
+    <comp ref="U14">
+      <value>LM361MX_NOPB</value>
+      <footprint>Package_SO:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
+      <datasheet>SOIC-14 Texas Instruments</datasheet>
+      <fields>
+        <field name="Descripción (inglés)">High Speed Differential Comparator 14-SOIC 0 to 70</field>
+        <field name="Enlace">https://www.digikey.com/product-detail/en/texas-instruments/LM361MX-NOPB/296-47682-1-ND/3526971</field>
+        <field name="Fabricante">Texas Instruments</field>
+        <field name="Número de parte (Digi-Key)">296-47682-1-ND</field>
+      </fields>
+      <libsource lib="sincronismo-rescue" part="LM361MX_NOPB-LM361MX_NOPB" description=""/>
+      <sheetpath names="/Señales de Video Secundario y PRF/" tstamps="/5DB488E7/"/>
+      <tstamp>5DC9BD27</tstamp>
+    </comp>
+    <comp ref="JP10">
+      <value>Jumper_3_Open</value>
+      <footprint>Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_NumberLabels</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Jumper" part="Jumper_3_Open" description="Jumper, 3-pole, both open"/>
+      <sheetpath names="/Señales de Video Secundario y PRF/" tstamps="/5DB488E7/"/>
+      <tstamp>5DCAAD31</tstamp>
+    </comp>
+    <comp ref="TP4">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/Señales de Video Secundario y PRF/" tstamps="/5DB488E7/"/>
+      <tstamp>5E25996A</tstamp>
+    </comp>
+    <comp ref="C25">
+      <value>0.1uF-50V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Señales de Video Secundario y PRF/" tstamps="/5DB488E7/"/>
+      <tstamp>5E259972</tstamp>
+    </comp>
+    <comp ref="C27">
+      <value>0.1uF-50V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Señales de Video Secundario y PRF/" tstamps="/5DB488E7/"/>
+      <tstamp>5DCAAD48</tstamp>
+    </comp>
+    <comp ref="U24">
+      <value>TLV2772IDR</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>296-1902-1-ND</datasheet>
+      <fields>
+        <field name="Campo4">Texas Instruments</field>
+        <field name="Campo5">Dual 2.7-V High Slew Rate Rail-To-Rail Output Operational Amplifier 8-SOIC -40 to 125</field>
+        <field name="Campo6">TLV2772IDR</field>
+        <field name="Campo7">https://www.digikey.com/product-detail/en/texas-instruments/TLV2772IDR/296-1902-1-ND/405014?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol</field>
+        <field name="Campo8">SOIC-8 Texas Instruments</field>
+      </fields>
+      <libsource lib="TLV2772IDR" part="TLV2772IDR" description=""/>
+      <sheetpath names="/Señales de Video Secundario y PRF/" tstamps="/5DB488E7/"/>
+      <tstamp>5DCAAD4C</tstamp>
+    </comp>
+    <comp ref="J23">
+      <value>Conn_Coaxial</value>
+      <footprint>Connector_Coaxial:SMA_Amphenol_901-144_Vertical</footprint>
+      <datasheet> ~</datasheet>
+      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)"/>
+      <sheetpath names="/Señales de Video Secundario y PRF/" tstamps="/5DB488E7/"/>
+      <tstamp>5DCAAD4D</tstamp>
+    </comp>
+    <comp ref="J21">
+      <value>Conn_Coaxial</value>
+      <footprint>Connector_Coaxial:SMA_Amphenol_901-144_Vertical</footprint>
+      <datasheet> ~</datasheet>
+      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)"/>
+      <sheetpath names="/Señales de Video Secundario y PRF/" tstamps="/5DB488E7/"/>
+      <tstamp>5DCAAD4E</tstamp>
+    </comp>
+    <comp ref="C29">
+      <value>0.1uF-50V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Señales de Video Secundario y PRF/" tstamps="/5DB488E7/"/>
+      <tstamp>5DC9BD34</tstamp>
+    </comp>
+    <comp ref="C30">
+      <value>0.1uF-50V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Señales de Video Secundario y PRF/" tstamps="/5DB488E7/"/>
+      <tstamp>5DCAAD3A</tstamp>
+    </comp>
+    <comp ref="RV9">
+      <value>R_POT</value>
+      <footprint>Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
+      <sheetpath names="/Señales de Video Secundario y PRF/" tstamps="/5DB488E7/"/>
+      <tstamp>5DA1A816</tstamp>
+    </comp>
+    <comp ref="J22">
+      <value>Conn_Coaxial</value>
+      <footprint>Connector_Coaxial:SMA_Amphenol_901-144_Vertical</footprint>
+      <datasheet> ~</datasheet>
+      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)"/>
+      <sheetpath names="/Señales de Video Secundario y PRF/" tstamps="/5DB488E7/"/>
+      <tstamp>5DD06102</tstamp>
+    </comp>
+    <comp ref="J20">
+      <value>Conn_Coaxial</value>
+      <footprint>Connector_Coaxial:SMA_Amphenol_901-144_Vertical</footprint>
+      <datasheet> ~</datasheet>
+      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)"/>
+      <sheetpath names="/Señales de Video Secundario y PRF/" tstamps="/5DB488E7/"/>
+      <tstamp>5DD06108</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_Coaxial">
+      <description>coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)</description>
+      <docs> ~</docs>
+      <footprints>
+        <fp>*BNC*</fp>
+        <fp>*SMA*</fp>
+        <fp>*SMB*</fp>
+        <fp>*SMC*</fp>
+        <fp>*Cinch*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_Coaxial</field>
+      </fields>
+      <pins>
+        <pin num="1" name="In" type="passive"/>
+        <pin num="2" name="Ext" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x04">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x20_Odd_Even">
+      <description>Generic connector, double row, 02x20, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x20_Odd_Even</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+        <pin num="17" name="Pin_17" type="passive"/>
+        <pin num="18" name="Pin_18" type="passive"/>
+        <pin num="19" name="Pin_19" type="passive"/>
+        <pin num="20" name="Pin_20" type="passive"/>
+        <pin num="21" name="Pin_21" type="passive"/>
+        <pin num="22" name="Pin_22" type="passive"/>
+        <pin num="23" name="Pin_23" type="passive"/>
+        <pin num="24" name="Pin_24" type="passive"/>
+        <pin num="25" name="Pin_25" type="passive"/>
+        <pin num="26" name="Pin_26" type="passive"/>
+        <pin num="27" name="Pin_27" type="passive"/>
+        <pin num="28" name="Pin_28" type="passive"/>
+        <pin num="29" name="Pin_29" type="passive"/>
+        <pin num="30" name="Pin_30" type="passive"/>
+        <pin num="31" name="Pin_31" type="passive"/>
+        <pin num="32" name="Pin_32" type="passive"/>
+        <pin num="33" name="Pin_33" type="passive"/>
+        <pin num="34" name="Pin_34" type="passive"/>
+        <pin num="35" name="Pin_35" type="passive"/>
+        <pin num="36" name="Pin_36" type="passive"/>
+        <pin num="37" name="Pin_37" type="passive"/>
+        <pin num="38" name="Pin_38" type="passive"/>
+        <pin num="39" name="Pin_39" type="passive"/>
+        <pin num="40" name="Pin_40" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="CP1">
+      <description>Polarized capacitor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_TVS">
+      <description>Bidirectional transient-voltage-suppression diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_TVS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A1" type="passive"/>
+        <pin num="2" name="A2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_POT">
+      <description>Potentiometer</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">R_POT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="Jumper_3_Open">
+      <description>Jumper, 3-pole, both open</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*Open*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper_3_Open</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="C" type="input"/>
+        <pin num="3" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Logic_LevelTranslator" part="SN74LVC2T45DCUR">
+      <description>Dual-Bit Dual-Supply Bus Transceiver With Configurable Voltage Translation and 3-State Outputs, VSSOP-8</description>
+      <docs>http://www.ti.com/lit/ds/symlink/sn74lvc2t45.pdf</docs>
+      <footprints>
+        <fp>VSSOP*2.4x2.1mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SN74LVC2T45DCUR</field>
+        <field name="Footprint">Package_SO:VSSOP-8_2.4x2.1mm_P0.5mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCCA" type="power_in"/>
+        <pin num="2" name="A1" type="BiDi"/>
+        <pin num="3" name="A2" type="BiDi"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="DIR" type="input"/>
+        <pin num="6" name="B2" type="BiDi"/>
+        <pin num="7" name="B1" type="BiDi"/>
+        <pin num="8" name="VCCB" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="TLV2772IDR" part="TLV2772IDR">
+      <docs>296-1902-1-ND</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TLV2772IDR</field>
+        <field name="Footprint">SOIC127P600X175-8N</field>
+        <field name="Datasheet">296-1902-1-ND</field>
+        <field name="Campo4">Texas Instruments</field>
+        <field name="Campo5">Dual 2.7-V High Slew Rate Rail-To-Rail Output Operational Amplifier 8-SOIC -40 to 125</field>
+        <field name="Campo6">TLV2772IDR</field>
+        <field name="Campo7">https://www.digikey.com/product-detail/en/texas-instruments/TLV2772IDR/296-1902-1-ND/405014?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol</field>
+        <field name="Campo8">SOIC-8 Texas Instruments</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1OUT" type="output"/>
+        <pin num="2" name="1IN-" type="input"/>
+        <pin num="3" name="1IN+" type="input"/>
+        <pin num="4" name="GND" type="passive"/>
+        <pin num="5" name="2IN+" type="input"/>
+        <pin num="6" name="2IN-" type="input"/>
+        <pin num="7" name="2OUT" type="output"/>
+        <pin num="8" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="sincronismo-rescue" part="LM361MX_NOPB-LM361MX_NOPB">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM361MX_NOPB-LM361MX_NOPB</field>
+        <field name="Footprint">SOIC127P600X175-14N</field>
+        <field name="Datasheet">SOIC-14 Texas Instruments</field>
+        <field name="Campo4">Unavailable</field>
+        <field name="Campo5">None</field>
+        <field name="Campo6">LM361MX/NOPB</field>
+        <field name="Campo7">High Speed Differential Comparator 14-SOIC 0 to 70</field>
+        <field name="Campo8">Texas Instruments</field>
+      </fields>
+      <pins>
+        <pin num="1" name="V+" type="passive"/>
+        <pin num="2" name="NC" type="passive"/>
+        <pin num="3" name="+IN" type="input"/>
+        <pin num="4" name="-IN" type="input"/>
+        <pin num="5" name="NC_4" type="passive"/>
+        <pin num="6" name="V-" type="passive"/>
+        <pin num="7" name="NC_2" type="passive"/>
+        <pin num="8" name="STROBE2" type="passive"/>
+        <pin num="9" name="OUT-" type="output"/>
+        <pin num="10" name="GND" type="passive"/>
+        <pin num="11" name="OUT+" type="output"/>
+        <pin num="12" name="NC_3" type="passive"/>
+        <pin num="13" name="STROBE1" type="passive"/>
+        <pin num="14" name="VCC" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="Jumper">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Jumper.lib</uri>
+    </library>
+    <library logical="Logic_LevelTranslator">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Logic_LevelTranslator.lib</uri>
+    </library>
+    <library logical="TLV2772IDR">
+      <uri>C:\Users\delar\tp-dci--migueledvc\adaptadora/TLV2772IDR.lib</uri>
+    </library>
+    <library logical="sincronismo-rescue">
+      <uri>C:\Users\delar\tp-dci--migueledvc\adaptadora/sincronismo-rescue.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="RV9" pin="3"/>
+      <node ref="C27" pin="1"/>
+      <node ref="C25" pin="2"/>
+      <node ref="C30" pin="1"/>
+      <node ref="C29" pin="2"/>
+      <node ref="J21" pin="2"/>
+      <node ref="U14" pin="10"/>
+      <node ref="C23" pin="1"/>
+      <node ref="J20" pin="2"/>
+      <node ref="J22" pin="2"/>
+      <node ref="C22" pin="1"/>
+      <node ref="J3" pin="2"/>
+      <node ref="U13" pin="10"/>
+      <node ref="J18" pin="2"/>
+      <node ref="J7" pin="1"/>
+      <node ref="RV8" pin="3"/>
+      <node ref="D6" pin="2"/>
+      <node ref="RV10" pin="3"/>
+      <node ref="C21" pin="2"/>
+      <node ref="R8" pin="2"/>
+      <node ref="RV7" pin="3"/>
+      <node ref="C26" pin="1"/>
+      <node ref="D2" pin="2"/>
+      <node ref="RV2" pin="3"/>
+      <node ref="R2" pin="2"/>
+      <node ref="C24" pin="2"/>
+      <node ref="J2" pin="2"/>
+      <node ref="U22" pin="4"/>
+      <node ref="D5" pin="2"/>
+      <node ref="C20" pin="2"/>
+      <node ref="R7" pin="2"/>
+      <node ref="D1" pin="2"/>
+      <node ref="RV1" pin="3"/>
+      <node ref="R1" pin="2"/>
+      <node ref="J4" pin="2"/>
+      <node ref="J16" pin="2"/>
+      <node ref="D3" pin="2"/>
+      <node ref="U11" pin="10"/>
+      <node ref="J12" pin="2"/>
+      <node ref="RV3" pin="3"/>
+      <node ref="C8" pin="2"/>
+      <node ref="R3" pin="2"/>
+      <node ref="J14" pin="2"/>
+      <node ref="RV5" pin="3"/>
+      <node ref="C18" pin="1"/>
+      <node ref="C12" pin="2"/>
+      <node ref="C14" pin="1"/>
+      <node ref="C16" pin="2"/>
+      <node ref="J17" pin="2"/>
+      <node ref="U21" pin="4"/>
+      <node ref="C19" pin="2"/>
+      <node ref="J15" pin="2"/>
+      <node ref="U31" pin="4"/>
+      <node ref="U31" pin="5"/>
+      <node ref="J8" pin="2"/>
+      <node ref="J23" pin="2"/>
+      <node ref="U24" pin="4"/>
+      <node ref="C15" pin="1"/>
+      <node ref="C13" pin="2"/>
+      <node ref="C17" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="R4" pin="2"/>
+      <node ref="C10" pin="1"/>
+      <node ref="RV6" pin="3"/>
+      <node ref="D4" pin="2"/>
+      <node ref="RV4" pin="3"/>
+      <node ref="J13" pin="2"/>
+      <node ref="C11" pin="1"/>
+      <node ref="U12" pin="10"/>
+      <node ref="J5" pin="12"/>
+      <node ref="C28" pin="2"/>
+      <node ref="U23" pin="4"/>
+      <node ref="J6" pin="2"/>
+      <node ref="U32" pin="5"/>
+      <node ref="C3" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="U32" pin="4"/>
+      <node ref="C31" pin="2"/>
+      <node ref="U25" pin="4"/>
+      <node ref="J10" pin="2"/>
+      <node ref="J11" pin="2"/>
+      <node ref="J5" pin="30"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="J19" pin="2"/>
+      <node ref="J1" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="J9" pin="2"/>
+      <node ref="C5" pin="2"/>
+    </net>
+    <net code="2" name="-12V">
+      <node ref="C26" pin="2"/>
+      <node ref="C15" pin="2"/>
+      <node ref="U13" pin="6"/>
+      <node ref="U14" pin="6"/>
+      <node ref="C14" pin="2"/>
+      <node ref="U12" pin="6"/>
+      <node ref="U11" pin="6"/>
+      <node ref="C2" pin="2"/>
+      <node ref="J8" pin="4"/>
+      <node ref="C27" pin="2"/>
+      <node ref="C3" pin="2"/>
+    </net>
+    <net code="3" name="+12V">
+      <node ref="C25" pin="1"/>
+      <node ref="U12" pin="1"/>
+      <node ref="J8" pin="3"/>
+      <node ref="C5" pin="1"/>
+      <node ref="C7" pin="1"/>
+      <node ref="C12" pin="1"/>
+      <node ref="U11" pin="1"/>
+      <node ref="C13" pin="1"/>
+      <node ref="U14" pin="1"/>
+      <node ref="C24" pin="1"/>
+      <node ref="U13" pin="1"/>
+    </net>
+    <net code="4" name="Net-(J5-Pad19)">
+      <node ref="J5" pin="19"/>
+    </net>
+    <net code="5" name="Net-(J5-Pad17)">
+      <node ref="J5" pin="17"/>
+    </net>
+    <net code="7" name="/ACP_3P3">
+      <node ref="J5" pin="1"/>
+      <node ref="J6" pin="1"/>
+      <node ref="U31" pin="2"/>
+      <node ref="U31" pin="3"/>
+      <node ref="J5" pin="3"/>
+    </net>
+    <net code="8" name="/V_COMP_3P3">
+      <node ref="U32" pin="3"/>
+      <node ref="J5" pin="7"/>
+    </net>
+    <net code="9" name="/PRF_3P3">
+      <node ref="J5" pin="5"/>
+      <node ref="U32" pin="2"/>
+    </net>
+    <net code="10" name="Net-(J5-Pad6)">
+      <node ref="J5" pin="6"/>
+    </net>
+    <net code="11" name="Net-(J5-Pad8)">
+      <node ref="J5" pin="8"/>
+    </net>
+    <net code="12" name="Net-(J5-Pad10)">
+      <node ref="J5" pin="10"/>
+    </net>
+    <net code="13" name="Net-(J5-Pad9)">
+      <node ref="J5" pin="9"/>
+    </net>
+    <net code="14" name="Net-(J5-Pad11)">
+      <node ref="J5" pin="11"/>
+    </net>
+    <net code="15" name="+3V3">
+      <node ref="U32" pin="1"/>
+      <node ref="C19" pin="1"/>
+      <node ref="U31" pin="1"/>
+      <node ref="J9" pin="1"/>
+      <node ref="C31" pin="1"/>
+    </net>
+    <net code="16" name="Net-(J5-Pad21)">
+      <node ref="J5" pin="21"/>
+    </net>
+    <net code="17" name="Net-(J2-Pad1)">
+      <node ref="JP2" pin="1"/>
+      <node ref="RV2" pin="1"/>
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="18" name="/DAC5">
+      <node ref="J7" pin="8"/>
+      <node ref="J5" pin="18"/>
+    </net>
+    <net code="19" name="/DAC4">
+      <node ref="J7" pin="9"/>
+      <node ref="J5" pin="20"/>
+    </net>
+    <net code="20" name="Net-(J5-Pad15)">
+      <node ref="J5" pin="15"/>
+    </net>
+    <net code="21" name="Net-(J5-Pad13)">
+      <node ref="J5" pin="13"/>
+    </net>
+    <net code="22" name="/DAC3">
+      <node ref="J7" pin="10"/>
+      <node ref="J5" pin="22"/>
+    </net>
+    <net code="23" name="/DAC2">
+      <node ref="J7" pin="11"/>
+      <node ref="J5" pin="24"/>
+    </net>
+    <net code="24" name="/DAC1">
+      <node ref="J5" pin="26"/>
+      <node ref="J7" pin="12"/>
+    </net>
+    <net code="25" name="/DAC0">
+      <node ref="J5" pin="28"/>
+      <node ref="J7" pin="13"/>
+    </net>
+    <net code="26" name="Net-(J5-Pad27)">
+      <node ref="J5" pin="27"/>
+    </net>
+    <net code="27" name="Net-(J5-Pad25)">
+      <node ref="J5" pin="25"/>
+    </net>
+    <net code="28" name="Net-(J5-Pad23)">
+      <node ref="J5" pin="23"/>
+    </net>
+    <net code="29" name="Net-(J5-Pad35)">
+      <node ref="J5" pin="35"/>
+    </net>
+    <net code="30" name="Net-(J5-Pad40)">
+      <node ref="J5" pin="40"/>
+    </net>
+    <net code="31" name="Net-(J5-Pad39)">
+      <node ref="J5" pin="39"/>
+    </net>
+    <net code="32" name="Net-(J5-Pad38)">
+      <node ref="J5" pin="38"/>
+    </net>
+    <net code="33" name="Net-(J5-Pad37)">
+      <node ref="J5" pin="37"/>
+    </net>
+    <net code="34" name="Net-(J5-Pad36)">
+      <node ref="J5" pin="36"/>
+    </net>
+    <net code="35" name="Net-(J5-Pad34)">
+      <node ref="J5" pin="34"/>
+    </net>
+    <net code="36" name="Net-(J5-Pad33)">
+      <node ref="J5" pin="33"/>
+    </net>
+    <net code="37" name="Net-(J5-Pad32)">
+      <node ref="J5" pin="32"/>
+    </net>
+    <net code="38" name="Net-(J5-Pad31)">
+      <node ref="J5" pin="31"/>
+    </net>
+    <net code="39" name="Net-(J5-Pad29)">
+      <node ref="J5" pin="29"/>
+    </net>
+    <net code="40" name="Net-(J10-Pad1)">
+      <node ref="J10" pin="1"/>
+      <node ref="U25" pin="6"/>
+      <node ref="U25" pin="7"/>
+    </net>
+    <net code="41" name="Net-(J11-Pad1)">
+      <node ref="J11" pin="1"/>
+      <node ref="U25" pin="2"/>
+      <node ref="U25" pin="1"/>
+    </net>
+    <net code="42" name="Net-(D2-Pad1)">
+      <node ref="RV2" pin="2"/>
+      <node ref="D2" pin="1"/>
+      <node ref="J4" pin="1"/>
+    </net>
+    <net code="43" name="Net-(J7-Pad15)">
+      <node ref="J7" pin="15"/>
+    </net>
+    <net code="44" name="Net-(J7-Pad14)">
+      <node ref="J7" pin="14"/>
+    </net>
+    <net code="45" name="/VIDEO_DIGITAL">
+      <node ref="U25" pin="3"/>
+      <node ref="U25" pin="5"/>
+      <node ref="J5" pin="2"/>
+    </net>
+    <net code="46" name="+5V">
+      <node ref="C11" pin="2"/>
+      <node ref="C1" pin="1"/>
+      <node ref="RV6" pin="1"/>
+      <node ref="C23" pin="2"/>
+      <node ref="U14" pin="13"/>
+      <node ref="J7" pin="2"/>
+      <node ref="C16" pin="1"/>
+      <node ref="C17" pin="1"/>
+      <node ref="C29" pin="1"/>
+      <node ref="C30" pin="2"/>
+      <node ref="U22" pin="8"/>
+      <node ref="U24" pin="8"/>
+      <node ref="U14" pin="14"/>
+      <node ref="U12" pin="13"/>
+      <node ref="U12" pin="14"/>
+      <node ref="U31" pin="8"/>
+      <node ref="U14" pin="8"/>
+      <node ref="U12" pin="8"/>
+      <node ref="U13" pin="8"/>
+      <node ref="U13" pin="14"/>
+      <node ref="U13" pin="13"/>
+      <node ref="U21" pin="8"/>
+      <node ref="C22" pin="2"/>
+      <node ref="U11" pin="8"/>
+      <node ref="C28" pin="1"/>
+      <node ref="U11" pin="14"/>
+      <node ref="U11" pin="13"/>
+      <node ref="U23" pin="8"/>
+      <node ref="J8" pin="1"/>
+      <node ref="C18" pin="2"/>
+      <node ref="C4" pin="1"/>
+      <node ref="RV5" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="RV9" pin="1"/>
+      <node ref="U25" pin="8"/>
+      <node ref="C10" pin="2"/>
+      <node ref="RV10" pin="1"/>
+      <node ref="U32" pin="8"/>
+    </net>
+    <net code="47" name="Net-(JP1-Pad2)">
+      <node ref="JP1" pin="2"/>
+      <node ref="JP1" pin="3"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="48" name="Net-(D1-Pad1)">
+      <node ref="J3" pin="1"/>
+      <node ref="D1" pin="1"/>
+      <node ref="RV1" pin="2"/>
+    </net>
+    <net code="49" name="Net-(J1-Pad1)">
+      <node ref="J1" pin="1"/>
+      <node ref="JP1" pin="1"/>
+      <node ref="RV1" pin="1"/>
+    </net>
+    <net code="50" name="Net-(JP2-Pad2)">
+      <node ref="JP2" pin="2"/>
+      <node ref="R2" pin="1"/>
+      <node ref="JP2" pin="3"/>
+    </net>
+    <net code="51" name="DAC_CLK">
+      <node ref="J5" pin="4"/>
+      <node ref="J7" pin="5"/>
+    </net>
+    <net code="52" name="Net-(J7-Pad24)">
+      <node ref="J7" pin="24"/>
+    </net>
+    <net code="53" name="Net-(J7-Pad25)">
+      <node ref="J7" pin="25"/>
+    </net>
+    <net code="54" name="Net-(J7-Pad23)">
+      <node ref="J7" pin="23"/>
+    </net>
+    <net code="55" name="Net-(J7-Pad21)">
+      <node ref="J7" pin="21"/>
+    </net>
+    <net code="56" name="Net-(J7-Pad19)">
+      <node ref="J7" pin="19"/>
+    </net>
+    <net code="57" name="Net-(J7-Pad17)">
+      <node ref="J7" pin="17"/>
+    </net>
+    <net code="58" name="Net-(J7-Pad22)">
+      <node ref="J7" pin="22"/>
+    </net>
+    <net code="59" name="Net-(J7-Pad20)">
+      <node ref="J7" pin="20"/>
+    </net>
+    <net code="60" name="Net-(J7-Pad18)">
+      <node ref="J7" pin="18"/>
+    </net>
+    <net code="61" name="Net-(J7-Pad16)">
+      <node ref="J7" pin="16"/>
+    </net>
+    <net code="62" name="Net-(J7-Pad26)">
+      <node ref="J7" pin="26"/>
+    </net>
+    <net code="63" name="Net-(J7-Pad3)">
+      <node ref="J7" pin="3"/>
+    </net>
+    <net code="64" name="Net-(J7-Pad4)">
+      <node ref="J7" pin="4"/>
+    </net>
+    <net code="65" name="Net-(J7-Pad28)">
+      <node ref="J7" pin="28"/>
+    </net>
+    <net code="66" name="Net-(J7-Pad30)">
+      <node ref="J7" pin="30"/>
+    </net>
+    <net code="67" name="Net-(J7-Pad32)">
+      <node ref="J7" pin="32"/>
+    </net>
+    <net code="68" name="Net-(J7-Pad34)">
+      <node ref="J7" pin="34"/>
+    </net>
+    <net code="69" name="Net-(J7-Pad36)">
+      <node ref="J7" pin="36"/>
+    </net>
+    <net code="70" name="Net-(J7-Pad38)">
+      <node ref="J7" pin="38"/>
+    </net>
+    <net code="71" name="Net-(J7-Pad40)">
+      <node ref="J7" pin="40"/>
+    </net>
+    <net code="72" name="Net-(J7-Pad39)">
+      <node ref="J7" pin="39"/>
+    </net>
+    <net code="73" name="Net-(J7-Pad37)">
+      <node ref="J7" pin="37"/>
+    </net>
+    <net code="74" name="Net-(J7-Pad35)">
+      <node ref="J7" pin="35"/>
+    </net>
+    <net code="75" name="Net-(J7-Pad33)">
+      <node ref="J7" pin="33"/>
+    </net>
+    <net code="76" name="Net-(J7-Pad31)">
+      <node ref="J7" pin="31"/>
+    </net>
+    <net code="77" name="Net-(J7-Pad29)">
+      <node ref="J7" pin="29"/>
+    </net>
+    <net code="78" name="Net-(J7-Pad27)">
+      <node ref="J7" pin="27"/>
+    </net>
+    <net code="79" name="Net-(JP6-Pad1)">
+      <node ref="U12" pin="11"/>
+      <node ref="JP6" pin="1"/>
+    </net>
+    <net code="80" name="/Señales de ACP y ARP/ARP">
+      <node ref="JP6" pin="2"/>
+      <node ref="TP2" pin="1"/>
+      <node ref="U22" pin="5"/>
+      <node ref="U31" pin="6"/>
+      <node ref="U22" pin="3"/>
+    </net>
+    <net code="81" name="Net-(J17-Pad1)">
+      <node ref="J17" pin="1"/>
+      <node ref="U22" pin="2"/>
+      <node ref="U22" pin="1"/>
+    </net>
+    <net code="82" name="Net-(J15-Pad1)">
+      <node ref="U22" pin="6"/>
+      <node ref="U22" pin="7"/>
+      <node ref="J15" pin="1"/>
+    </net>
+    <net code="83" name="Net-(U12-Pad7)">
+      <node ref="U12" pin="7"/>
+    </net>
+    <net code="84" name="Net-(U12-Pad5)">
+      <node ref="U12" pin="5"/>
+    </net>
+    <net code="85" name="Net-(R6-Pad1)">
+      <node ref="R6" pin="1"/>
+      <node ref="U12" pin="3"/>
+    </net>
+    <net code="86" name="Net-(U12-Pad2)">
+      <node ref="U12" pin="2"/>
+    </net>
+    <net code="87" name="Net-(U12-Pad12)">
+      <node ref="U12" pin="12"/>
+    </net>
+    <net code="88" name="Net-(JP4-Pad2)">
+      <node ref="R4" pin="1"/>
+      <node ref="JP4" pin="2"/>
+      <node ref="JP4" pin="3"/>
+    </net>
+    <net code="89" name="Net-(JP6-Pad3)">
+      <node ref="JP6" pin="3"/>
+      <node ref="U12" pin="9"/>
+    </net>
+    <net code="90" name="Net-(D4-Pad1)">
+      <node ref="RV4" pin="2"/>
+      <node ref="D4" pin="1"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="91" name="Net-(J16-Pad1)">
+      <node ref="U21" pin="2"/>
+      <node ref="U21" pin="1"/>
+      <node ref="J16" pin="1"/>
+    </net>
+    <net code="92" name="Net-(J14-Pad1)">
+      <node ref="J14" pin="1"/>
+      <node ref="U21" pin="7"/>
+      <node ref="U21" pin="6"/>
+    </net>
+    <net code="93" name="/Señales de ACP y ARP/ACP">
+      <node ref="U21" pin="3"/>
+      <node ref="U31" pin="7"/>
+      <node ref="JP5" pin="2"/>
+      <node ref="TP1" pin="1"/>
+      <node ref="U21" pin="5"/>
+    </net>
+    <net code="94" name="Net-(U11-Pad2)">
+      <node ref="U11" pin="2"/>
+    </net>
+    <net code="95" name="Net-(U11-Pad5)">
+      <node ref="U11" pin="5"/>
+    </net>
+    <net code="96" name="Net-(U11-Pad12)">
+      <node ref="U11" pin="12"/>
+    </net>
+    <net code="97" name="Net-(U11-Pad7)">
+      <node ref="U11" pin="7"/>
+    </net>
+    <net code="98" name="Net-(C8-Pad1)">
+      <node ref="U11" pin="4"/>
+      <node ref="C8" pin="1"/>
+      <node ref="RV5" pin="2"/>
+    </net>
+    <net code="99" name="Net-(R5-Pad1)">
+      <node ref="R5" pin="1"/>
+      <node ref="U11" pin="3"/>
+    </net>
+    <net code="100" name="Net-(JP5-Pad1)">
+      <node ref="JP5" pin="1"/>
+      <node ref="U11" pin="11"/>
+    </net>
+    <net code="101" name="Net-(JP5-Pad3)">
+      <node ref="U11" pin="9"/>
+      <node ref="JP5" pin="3"/>
+    </net>
+    <net code="102" name="Net-(D3-Pad1)">
+      <node ref="D3" pin="1"/>
+      <node ref="RV3" pin="2"/>
+      <node ref="R5" pin="2"/>
+    </net>
+    <net code="103" name="Net-(JP3-Pad2)">
+      <node ref="R3" pin="1"/>
+      <node ref="JP3" pin="2"/>
+      <node ref="JP3" pin="3"/>
+    </net>
+    <net code="104" name="Net-(J12-Pad1)">
+      <node ref="JP3" pin="1"/>
+      <node ref="J12" pin="1"/>
+      <node ref="RV3" pin="1"/>
+    </net>
+    <net code="105" name="Net-(C9-Pad1)">
+      <node ref="RV6" pin="2"/>
+      <node ref="C9" pin="1"/>
+      <node ref="U12" pin="4"/>
+    </net>
+    <net code="106" name="Net-(J13-Pad1)">
+      <node ref="RV4" pin="1"/>
+      <node ref="J13" pin="1"/>
+      <node ref="JP4" pin="1"/>
+    </net>
+    <net code="107" name="Net-(J21-Pad1)">
+      <node ref="U24" pin="6"/>
+      <node ref="U24" pin="7"/>
+      <node ref="J21" pin="1"/>
+    </net>
+    <net code="108" name="/Señales de Video Secundario y PRF/VIDEO_COMP">
+      <node ref="U24" pin="5"/>
+      <node ref="JP10" pin="2"/>
+      <node ref="TP4" pin="1"/>
+      <node ref="U24" pin="3"/>
+      <node ref="U32" pin="6"/>
+    </net>
+    <net code="109" name="Net-(J23-Pad1)">
+      <node ref="J23" pin="1"/>
+      <node ref="U24" pin="1"/>
+      <node ref="U24" pin="2"/>
+    </net>
+    <net code="110" name="Net-(U14-Pad7)">
+      <node ref="U14" pin="7"/>
+    </net>
+    <net code="111" name="Net-(U14-Pad5)">
+      <node ref="U14" pin="5"/>
+    </net>
+    <net code="112" name="Net-(R10-Pad1)">
+      <node ref="R10" pin="1"/>
+      <node ref="U14" pin="3"/>
+    </net>
+    <net code="113" name="Net-(U14-Pad2)">
+      <node ref="U14" pin="2"/>
+    </net>
+    <net code="114" name="Net-(U14-Pad12)">
+      <node ref="U14" pin="12"/>
+    </net>
+    <net code="115" name="Net-(JP10-Pad1)">
+      <node ref="U14" pin="11"/>
+      <node ref="JP10" pin="1"/>
+    </net>
+    <net code="116" name="Net-(JP10-Pad3)">
+      <node ref="JP10" pin="3"/>
+      <node ref="U14" pin="9"/>
+    </net>
+    <net code="117" name="Net-(D6-Pad1)">
+      <node ref="D6" pin="1"/>
+      <node ref="RV8" pin="2"/>
+      <node ref="R10" pin="2"/>
+    </net>
+    <net code="118" name="Net-(J22-Pad1)">
+      <node ref="U23" pin="1"/>
+      <node ref="J22" pin="1"/>
+      <node ref="U23" pin="2"/>
+    </net>
+    <net code="119" name="Net-(J20-Pad1)">
+      <node ref="U23" pin="7"/>
+      <node ref="U23" pin="6"/>
+      <node ref="J20" pin="1"/>
+    </net>
+    <net code="120" name="Net-(U13-Pad5)">
+      <node ref="U13" pin="5"/>
+    </net>
+    <net code="121" name="Net-(C20-Pad1)">
+      <node ref="C20" pin="1"/>
+      <node ref="U13" pin="4"/>
+      <node ref="RV9" pin="2"/>
+    </net>
+    <net code="122" name="Net-(U13-Pad2)">
+      <node ref="U13" pin="2"/>
+    </net>
+    <net code="123" name="Net-(U13-Pad12)">
+      <node ref="U13" pin="12"/>
+    </net>
+    <net code="124" name="Net-(U13-Pad7)">
+      <node ref="U13" pin="7"/>
+    </net>
+    <net code="125" name="Net-(R9-Pad1)">
+      <node ref="U13" pin="3"/>
+      <node ref="R9" pin="1"/>
+    </net>
+    <net code="126" name="/Señales de Video Secundario y PRF/PRF">
+      <node ref="U23" pin="3"/>
+      <node ref="U23" pin="5"/>
+      <node ref="JP9" pin="2"/>
+      <node ref="U32" pin="7"/>
+      <node ref="TP3" pin="1"/>
+    </net>
+    <net code="127" name="Net-(JP9-Pad1)">
+      <node ref="JP9" pin="1"/>
+      <node ref="U13" pin="11"/>
+    </net>
+    <net code="128" name="Net-(JP9-Pad3)">
+      <node ref="U13" pin="9"/>
+      <node ref="JP9" pin="3"/>
+    </net>
+    <net code="129" name="Net-(D5-Pad1)">
+      <node ref="RV7" pin="2"/>
+      <node ref="R9" pin="2"/>
+      <node ref="D5" pin="1"/>
+    </net>
+    <net code="130" name="Net-(JP7-Pad2)">
+      <node ref="JP7" pin="2"/>
+      <node ref="JP7" pin="3"/>
+      <node ref="R7" pin="1"/>
+    </net>
+    <net code="131" name="Net-(J18-Pad1)">
+      <node ref="JP7" pin="1"/>
+      <node ref="RV7" pin="1"/>
+      <node ref="J18" pin="1"/>
+    </net>
+    <net code="132" name="Net-(JP8-Pad2)">
+      <node ref="JP8" pin="2"/>
+      <node ref="R8" pin="1"/>
+      <node ref="JP8" pin="3"/>
+    </net>
+    <net code="133" name="Net-(C21-Pad1)">
+      <node ref="U14" pin="4"/>
+      <node ref="RV10" pin="2"/>
+      <node ref="C21" pin="1"/>
+    </net>
+    <net code="134" name="Net-(J19-Pad1)">
+      <node ref="RV8" pin="1"/>
+      <node ref="J19" pin="1"/>
+      <node ref="JP8" pin="1"/>
+    </net>
+    <net code="135" name="/DAC7">
+      <node ref="J7" pin="6"/>
+      <node ref="J5" pin="14"/>
+    </net>
+    <net code="136" name="/DAC6">
+      <node ref="J7" pin="7"/>
+      <node ref="J5" pin="16"/>
+    </net>
+  </nets>
+</export>
