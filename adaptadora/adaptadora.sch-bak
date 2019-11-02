@@ -31,7 +31,7 @@ U 1 1 5DA8C642
 P 2150 4550
 F 0 "JP1" V 2104 4637 50  0000 L CNN
 F 1 "Jumper_3_Open" V 2195 4637 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2150 4550 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_NumberLabels" H 2150 4550 50  0001 C CNN
 F 3 "~" H 2150 4550 50  0001 C CNN
 	1    2150 4550
 	0    1    1    0   
@@ -138,7 +138,7 @@ U 1 1 5DA9EE3A
 P 2150 6150
 F 0 "JP2" V 2104 6237 50  0000 L CNN
 F 1 "Jumper_3_Open" V 2195 6237 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2150 6150 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_NumberLabels" H 2150 6150 50  0001 C CNN
 F 3 "~" H 2150 6150 50  0001 C CNN
 	1    2150 6150
 	0    1    1    0   
@@ -270,7 +270,7 @@ P 8950 1600
 F 0 "U25" H 8950 2170 50  0000 C CNN
 F 1 "TLV2772IDR" H 8950 2079 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 8950 1150 50  0001 L BNN
-F 3 "296-1902-1-ND" H 8950 1150 50  0001 L BNN
+F 3 "http://www.ti.com/lit/ds/symlink/tlv2772.pdf" H 8950 1150 50  0001 L BNN
 F 4 "Texas Instruments" H 8950 1150 50  0001 L BNN "Fabricante"
 F 5 "Dual 2.7-V High Slew Rate Rail-To-Rail Output Operational Amplifier 8-SOIC -40 to 125" H 8950 1150 50  0001 L BNN "Descripción (inglés)"
 F 6 "296-1902-1-ND" H 8950 1150 50  0001 L BNN "Número de Parte (Digi-Key)"

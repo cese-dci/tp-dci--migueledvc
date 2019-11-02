@@ -173,7 +173,7 @@ P 4100 2500
 F 0 "U13" H 4100 3170 50  0000 C CNN
 F 1 "LM361MX_NOPB" H 4100 3079 50  0000 C CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 4100 2500 50  0001 L BNN
-F 3 "SOIC-14 Texas Instruments" H 4100 2500 50  0001 L BNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm361.pdf" H 4100 2500 50  0001 L BNN
 F 4 "Texas Instruments" H 4100 2500 50  0001 L BNN "Fabricante"
 F 5 "High Speed Differential Comparator 14-SOIC 0 to 70" H 4100 2500 50  0001 L BNN "Descripción (inglés)"
 F 6 "296-47682-1-ND" H 4100 2500 50  0001 L BNN "Número de parte (Digi-Key)"
@@ -320,7 +320,7 @@ P 7300 2250
 F 0 "U23" H 7300 2820 50  0000 C CNN
 F 1 "TLV2772IDR" H 7300 2729 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 7300 2250 50  0001 L BNN
-F 3 "296-1902-1-ND" H 7300 2250 50  0001 L BNN
+F 3 "http://www.ti.com/lit/ds/symlink/tlv2772.pdf" H 7300 2250 50  0001 L BNN
 F 4 "Texas Instruments" H 7300 2250 50  0001 L BNN "Campo4"
 F 5 "Dual 2.7-V High Slew Rate Rail-To-Rail Output Operational Amplifier 8-SOIC -40 to 125" H 7300 2250 50  0001 L BNN "Campo5"
 F 6 "TLV2772IDR" H 7300 2250 50  0001 L BNN "Campo6"
@@ -673,7 +673,7 @@ P 4100 5200
 F 0 "U14" H 4100 5870 50  0000 C CNN
 F 1 "LM361MX_NOPB" H 4100 5779 50  0000 C CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 4100 5200 50  0001 L BNN
-F 3 "SOIC-14 Texas Instruments" H 4100 5200 50  0001 L BNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm361.pdf" H 4100 5200 50  0001 L BNN
 F 4 "Texas Instruments" H 4100 5200 50  0001 L BNN "Fabricante"
 F 5 "High Speed Differential Comparator 14-SOIC 0 to 70" H 4100 5200 50  0001 L BNN "Descripción (inglés)"
 F 6 "296-47682-1-ND" H 4100 5200 50  0001 L BNN "Número de parte (Digi-Key)"

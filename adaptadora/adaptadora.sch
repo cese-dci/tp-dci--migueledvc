@@ -270,7 +270,7 @@ P 8950 1600
 F 0 "U25" H 8950 2170 50  0000 C CNN
 F 1 "TLV2772IDR" H 8950 2079 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 8950 1150 50  0001 L BNN
-F 3 "296-1902-1-ND" H 8950 1150 50  0001 L BNN
+F 3 "http://www.ti.com/lit/ds/symlink/tlv2772.pdf" H 8950 1150 50  0001 L BNN
 F 4 "Texas Instruments" H 8950 1150 50  0001 L BNN "Fabricante"
 F 5 "Dual 2.7-V High Slew Rate Rail-To-Rail Output Operational Amplifier 8-SOIC -40 to 125" H 8950 1150 50  0001 L BNN "Descripción (inglés)"
 F 6 "296-1902-1-ND" H 8950 1150 50  0001 L BNN "Número de Parte (Digi-Key)"
