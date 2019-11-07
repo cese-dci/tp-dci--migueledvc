@@ -1343,6 +1343,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model ${KISYS3DMOD}/Poncho_L86.3dshapes/SMA-angled.wrl
+      (offset (xyz 0 0 -3))
+      (scale (xyz 0.4 0.4 0.4))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Diode_SMD:D_0201_0603Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 5DBB6C28)
@@ -1621,6 +1626,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model "${KISYS3DMOD}/Connector_Coaxial.3dshapes/User Library-5-1814832-1.STEP"
+      (offset (xyz 0 0 1))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (module Connector_Coaxial:SMA_Amphenol_901-144_Vertical (layer F.Cu) (tedit 5B2F4C32) (tstamp 5DBCDCE6)
@@ -1665,10 +1675,10 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model ":LM361:shapes3D/User Library-5-1814832-1.WRL"
-      (at (xyz 0 0 0))
+    (model "${KISYS3DMOD}/Connector_Coaxial.3dshapes/User Library-5-1814832-1.STEP"
+      (offset (xyz 0 0 1))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz -90 0 0))
     )
   )
 
@@ -1919,6 +1929,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model ${KISYS3DMOD}/Poncho_L86.3dshapes/SMA-angled.wrl
+      (offset (xyz 0 0 -3))
+      (scale (xyz 0.4 0.4 0.4))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Connector_Coaxial:SMA_Amphenol_901-144_Vertical (layer F.Cu) (tedit 5B2F4C32) (tstamp 5DBB6EA4)
@@ -1961,6 +1976,11 @@
     (model ${KISYS3DMOD}/Connector_Coaxial.3dshapes/SMA_Amphenol_901-144_Vertical.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model ${KISYS3DMOD}/Poncho_L86.3dshapes/SMA-angled.wrl
+      (offset (xyz 0 0 -3))
+      (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz 0 0 0))
     )
   )
@@ -2007,6 +2027,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model ${KISYS3DMOD}/Poncho_L86.3dshapes/SMA-angled.wrl
+      (offset (xyz 0 0 -3))
+      (scale (xyz 0.4 0.4 0.4))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Connector_Coaxial:SMA_Amphenol_901-144_Vertical (layer F.Cu) (tedit 5B2F4C32) (tstamp 5DBB6F2E)
@@ -2049,6 +2074,11 @@
     (model ${KISYS3DMOD}/Connector_Coaxial.3dshapes/SMA_Amphenol_901-144_Vertical.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model ${KISYS3DMOD}/Poncho_L86.3dshapes/SMA-angled.wrl
+      (offset (xyz 0 0 -3))
+      (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz 0 0 0))
     )
   )
@@ -3637,6 +3667,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model ${KISYS3DMOD}/Poncho_L86.3dshapes/SMA-angled.wrl
+      (offset (xyz 0 0 -3))
+      (scale (xyz 0.4 0.4 0.4))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Connector_Coaxial:SMA_Amphenol_901-144_Vertical (layer F.Cu) (tedit 5B2F4C32) (tstamp 5DBB6C6D)
@@ -3681,6 +3716,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model "${KISYS3DMOD}/Connector_Coaxial.3dshapes/User Library-5-1814832-1.STEP"
+      (offset (xyz 0 0 1))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (module Connector_Coaxial:SMA_Amphenol_901-144_Vertical (layer F.Cu) (tedit 5B2F4C32) (tstamp 5DBCA87E)
@@ -3724,6 +3764,11 @@
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
+    )
+    (model "${KISYS3DMOD}/Connector_Coaxial.3dshapes/User Library-5-1814832-1.STEP"
+      (offset (xyz 0 0 1))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
     )
   )
 
@@ -4412,6 +4457,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model "${KISYS3DMOD}/Connector_Coaxial.3dshapes/User Library-5-1814832-1.STEP"
+      (offset (xyz 0 0 1))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (module Connector_Coaxial:SMA_Amphenol_901-144_Vertical (layer F.Cu) (tedit 5B2F4C32) (tstamp 5DBCABB6)
@@ -4455,6 +4505,11 @@
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
+    )
+    (model "${KISYS3DMOD}/Connector_Coaxial.3dshapes/User Library-5-1814832-1.STEP"
+      (offset (xyz 0 0 1))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
     )
   )
 
@@ -4500,6 +4555,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model "${KISYS3DMOD}/Connector_Coaxial.3dshapes/User Library-5-1814832-1.STEP"
+      (offset (xyz 0 0 1))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (module Connector_Coaxial:SMA_Amphenol_901-144_Vertical (layer F.Cu) (tedit 5B2F4C32) (tstamp 5DBCAD42)
@@ -4543,6 +4603,11 @@
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
+    )
+    (model "${KISYS3DMOD}/Connector_Coaxial.3dshapes/User Library-5-1814832-1.STEP"
+      (offset (xyz 0 0 1))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
     )
   )
 
@@ -4588,6 +4653,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model "${KISYS3DMOD}/Connector_Coaxial.3dshapes/User Library-5-1814832-1.STEP"
+      (offset (xyz 0 0 1))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (module Connector_Coaxial:SMA_Amphenol_901-144_Vertical (layer F.Cu) (tedit 5B2F4C32) (tstamp 5DBCAD84)
@@ -4631,6 +4701,11 @@
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
+    )
+    (model "${KISYS3DMOD}/Connector_Coaxial.3dshapes/User Library-5-1814832-1.STEP"
+      (offset (xyz 0 0 1))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
     )
   )
 
