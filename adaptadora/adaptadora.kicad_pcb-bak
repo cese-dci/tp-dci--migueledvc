@@ -1700,6 +1700,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model ":LM361:shapes3D/User Library-5-1814832-1.WRL"
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 5DBB70A7)

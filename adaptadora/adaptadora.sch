@@ -17,228 +17,228 @@ $EndDescr
 $Comp
 L Connector:Conn_Coaxial J1
 U 1 1 5DA88E41
-P 1650 4150
-F 0 "J1" H 1578 4388 50  0000 C CNN
-F 1 "Conn_Coaxial" H 1578 4297 50  0000 C CNN
-F 2 "Connector_Coaxial:SMA_Amphenol_901-144_Vertical" H 1650 4150 50  0001 C CNN
-F 3 " ~" H 1650 4150 50  0001 C CNN
-	1    1650 4150
+P 1300 4550
+F 0 "J1" H 1228 4788 50  0000 C CNN
+F 1 "Conn_Coaxial" H 1228 4697 50  0000 C CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_901-144_Vertical" H 1300 4550 50  0001 C CNN
+F 3 " ~" H 1300 4550 50  0001 C CNN
+	1    1300 4550
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Jumper:Jumper_3_Open JP1
 U 1 1 5DA8C642
-P 2150 4550
-F 0 "JP1" V 2104 4637 50  0000 L CNN
-F 1 "Jumper_3_Open" V 2195 4637 50  0000 L CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_NumberLabels" H 2150 4550 50  0001 C CNN
-F 3 "~" H 2150 4550 50  0001 C CNN
-	1    2150 4550
+P 1800 4950
+F 0 "JP1" V 1754 5037 50  0000 L CNN
+F 1 "Jumper_3_Open" V 1845 5037 50  0000 L CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_NumberLabels" H 1800 4950 50  0001 C CNN
+F 3 "~" H 1800 4950 50  0001 C CNN
+	1    1800 4950
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R1
 U 1 1 5DA8EAD4
-P 1900 5000
-F 0 "R1" H 1970 5046 50  0000 L CNN
-F 1 "50 - 1/2W - 5%" H 1970 4955 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal" V 1830 5000 50  0001 C CNN
-F 3 "~" H 1900 5000 50  0001 C CNN
-	1    1900 5000
+P 1550 5400
+F 0 "R1" H 1620 5446 50  0000 L CNN
+F 1 "50 - 1/2W - 5%" H 1620 5355 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal" V 1480 5400 50  0001 C CNN
+F 3 "~" H 1550 5400 50  0001 C CNN
+	1    1550 5400
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_POT RV1
 U 1 1 5DA8F115
-P 2850 4300
-F 0 "RV1" H 2781 4346 50  0000 R CNN
-F 1 "R_POT" H 2781 4255 50  0000 R CNN
-F 2 "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical" H 2850 4300 50  0001 C CNN
-F 3 "~" H 2850 4300 50  0001 C CNN
-	1    2850 4300
+P 2500 4700
+F 0 "RV1" H 2431 4746 50  0000 R CNN
+F 1 "R_POT" H 2431 4655 50  0000 R CNN
+F 2 "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical" H 2500 4700 50  0001 C CNN
+F 3 "~" H 2500 4700 50  0001 C CNN
+	1    2500 4700
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:D_TVS D1
 U 1 1 5DA90213
-P 3150 4850
-F 0 "D1" V 3104 4929 50  0000 L CNN
-F 1 "D_TVS" V 3195 4929 50  0000 L CNN
-F 2 "Diode_SMD:D_0201_0603Metric" H 3150 4850 50  0001 C CNN
-F 3 "~" H 3150 4850 50  0001 C CNN
-	1    3150 4850
+P 2800 5250
+F 0 "D1" V 2754 5329 50  0000 L CNN
+F 1 "D_TVS" V 2845 5329 50  0000 L CNN
+F 2 "Diode_SMD:D_0201_0603Metric" H 2800 5250 50  0001 C CNN
+F 3 "~" H 2800 5250 50  0001 C CNN
+	1    2800 5250
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2000 4550 1900 4550
+	1650 4950 1550 4950
 Wire Wire Line
-	1900 4550 1900 4800
+	1550 4950 1550 5200
 Wire Wire Line
-	2150 4800 1900 4800
-Connection ~ 1900 4800
+	1800 5200 1550 5200
+Connection ~ 1550 5200
 Wire Wire Line
-	1900 4800 1900 4850
+	1550 5200 1550 5250
 Wire Wire Line
-	2150 4150 2150 4300
-Connection ~ 2150 4150
+	1800 4550 1800 4700
+Connection ~ 1800 4550
 $Comp
 L Connector:Conn_Coaxial J3
 U 1 1 5DA90740
-P 3550 4300
-F 0 "J3" H 3650 4275 50  0000 L CNN
-F 1 "Conn_Coaxial" H 3650 4184 50  0000 L CNN
-F 2 "Connector_Coaxial:SMA_Amphenol_901-144_Vertical" H 3550 4300 50  0001 C CNN
-F 3 " ~" H 3550 4300 50  0001 C CNN
-	1    3550 4300
+P 3200 4700
+F 0 "J3" H 3300 4675 50  0000 L CNN
+F 1 "Conn_Coaxial" H 3300 4584 50  0000 L CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_901-144_Vertical" H 3200 4700 50  0001 C CNN
+F 3 " ~" H 3200 4700 50  0001 C CNN
+	1    3200 4700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3000 4300 3150 4300
+	2650 4700 2800 4700
 Wire Wire Line
-	3150 4700 3150 4300
-Connection ~ 3150 4300
+	2800 5100 2800 4700
+Connection ~ 2800 4700
 Wire Wire Line
-	3150 4300 3350 4300
+	2800 4700 3000 4700
 Wire Wire Line
-	2850 5150 2850 4450
+	2500 5550 2500 4850
 Wire Wire Line
-	2850 5150 3150 5150
+	2500 5550 2800 5550
 Wire Wire Line
-	3150 5150 3150 5000
-Connection ~ 2850 5150
+	2800 5550 2800 5400
+Connection ~ 2500 5550
 Wire Wire Line
-	3150 5150 3550 5150
+	2800 5550 3200 5550
 Wire Wire Line
-	3550 5150 3550 4500
-Connection ~ 3150 5150
+	3200 5550 3200 4900
+Connection ~ 2800 5550
 Wire Wire Line
-	1650 4350 1650 5150
+	1300 4750 1300 5550
 Wire Wire Line
-	1650 5150 1900 5150
-Connection ~ 1900 5150
-Connection ~ 2650 5150
+	1300 5550 1550 5550
+Connection ~ 1550 5550
+Connection ~ 2300 5550
 Wire Wire Line
-	2150 4150 2850 4150
+	1800 4550 2500 4550
 Wire Wire Line
-	2650 5150 2850 5150
+	2300 5550 2500 5550
 $Comp
 L Connector:Conn_Coaxial J2
 U 1 1 5DA9EE34
-P 1650 5750
-F 0 "J2" H 1578 5988 50  0000 C CNN
-F 1 "Conn_Coaxial" H 1578 5897 50  0000 C CNN
-F 2 "Connector_Coaxial:SMA_Amphenol_901-144_Vertical" H 1650 5750 50  0001 C CNN
-F 3 " ~" H 1650 5750 50  0001 C CNN
-	1    1650 5750
+P 1300 6150
+F 0 "J2" H 1228 6388 50  0000 C CNN
+F 1 "Conn_Coaxial" H 1228 6297 50  0000 C CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_901-144_Vertical" H 1300 6150 50  0001 C CNN
+F 3 " ~" H 1300 6150 50  0001 C CNN
+	1    1300 6150
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Jumper:Jumper_3_Open JP2
 U 1 1 5DA9EE3A
-P 2150 6150
-F 0 "JP2" V 2104 6237 50  0000 L CNN
-F 1 "Jumper_3_Open" V 2195 6237 50  0000 L CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_NumberLabels" H 2150 6150 50  0001 C CNN
-F 3 "~" H 2150 6150 50  0001 C CNN
-	1    2150 6150
+P 1800 6550
+F 0 "JP2" V 1754 6637 50  0000 L CNN
+F 1 "Jumper_3_Open" V 1845 6637 50  0000 L CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_NumberLabels" H 1800 6550 50  0001 C CNN
+F 3 "~" H 1800 6550 50  0001 C CNN
+	1    1800 6550
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R2
 U 1 1 5DA9EE40
-P 1900 6600
-F 0 "R2" H 1970 6646 50  0000 L CNN
-F 1 "50 - 1/2W - 5%" H 1970 6555 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal" V 1830 6600 50  0001 C CNN
-F 3 "~" H 1900 6600 50  0001 C CNN
-	1    1900 6600
+P 1550 7000
+F 0 "R2" H 1620 7046 50  0000 L CNN
+F 1 "50 - 1/2W - 5%" H 1620 6955 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal" V 1480 7000 50  0001 C CNN
+F 3 "~" H 1550 7000 50  0001 C CNN
+	1    1550 7000
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_POT RV2
 U 1 1 5DA9EE46
-P 2850 5900
-F 0 "RV2" H 2781 5946 50  0000 R CNN
-F 1 "R_POT" H 2781 5855 50  0000 R CNN
-F 2 "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical" H 2850 5900 50  0001 C CNN
-F 3 "~" H 2850 5900 50  0001 C CNN
-	1    2850 5900
+P 2500 6300
+F 0 "RV2" H 2431 6346 50  0000 R CNN
+F 1 "R_POT" H 2431 6255 50  0000 R CNN
+F 2 "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical" H 2500 6300 50  0001 C CNN
+F 3 "~" H 2500 6300 50  0001 C CNN
+	1    2500 6300
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:D_TVS D2
 U 1 1 5DA9EE4C
-P 3150 6450
-F 0 "D2" V 3104 6529 50  0000 L CNN
-F 1 "D_TVS" V 3195 6529 50  0000 L CNN
-F 2 "Diode_SMD:D_0201_0603Metric" H 3150 6450 50  0001 C CNN
-F 3 "~" H 3150 6450 50  0001 C CNN
-	1    3150 6450
+P 2800 6850
+F 0 "D2" V 2754 6929 50  0000 L CNN
+F 1 "D_TVS" V 2845 6929 50  0000 L CNN
+F 2 "Diode_SMD:D_0201_0603Metric" H 2800 6850 50  0001 C CNN
+F 3 "~" H 2800 6850 50  0001 C CNN
+	1    2800 6850
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2000 6150 1900 6150
+	1650 6550 1550 6550
 Wire Wire Line
-	1900 6150 1900 6400
+	1550 6550 1550 6800
 Wire Wire Line
-	2150 6400 1900 6400
-Connection ~ 1900 6400
+	1800 6800 1550 6800
+Connection ~ 1550 6800
 Wire Wire Line
-	1900 6400 1900 6450
+	1550 6800 1550 6850
 Wire Wire Line
-	2150 5750 2150 5900
-Connection ~ 2150 5750
+	1800 6150 1800 6300
+Connection ~ 1800 6150
 $Comp
 L Connector:Conn_Coaxial J4
 U 1 1 5DA9EE59
-P 3550 5900
-F 0 "J4" H 3650 5875 50  0000 L CNN
-F 1 "Conn_Coaxial" H 3650 5784 50  0000 L CNN
-F 2 "Connector_Coaxial:SMA_Amphenol_901-144_Vertical" H 3550 5900 50  0001 C CNN
-F 3 " ~" H 3550 5900 50  0001 C CNN
-	1    3550 5900
+P 3200 6300
+F 0 "J4" H 3300 6275 50  0000 L CNN
+F 1 "Conn_Coaxial" H 3300 6184 50  0000 L CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_901-144_Vertical" H 3200 6300 50  0001 C CNN
+F 3 " ~" H 3200 6300 50  0001 C CNN
+	1    3200 6300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3000 5900 3150 5900
+	2650 6300 2800 6300
 Wire Wire Line
-	3150 6300 3150 5900
-Connection ~ 3150 5900
+	2800 6700 2800 6300
+Connection ~ 2800 6300
 Wire Wire Line
-	3150 5900 3350 5900
+	2800 6300 3000 6300
 Wire Wire Line
-	2850 6750 2850 6050
+	2500 7150 2500 6450
 Wire Wire Line
-	2850 6750 3150 6750
+	2500 7150 2800 7150
 Wire Wire Line
-	3150 6750 3150 6600
-Connection ~ 2850 6750
+	2800 7150 2800 7000
+Connection ~ 2500 7150
 Wire Wire Line
-	3150 6750 3550 6750
+	2800 7150 3200 7150
 Wire Wire Line
-	3550 6750 3550 6100
-Connection ~ 3150 6750
+	3200 7150 3200 6500
+Connection ~ 2800 7150
 Wire Wire Line
-	1650 5950 1650 6750
+	1300 6350 1300 7150
 Wire Wire Line
-	1650 6750 1900 6750
-Connection ~ 1900 6750
+	1300 7150 1550 7150
+Connection ~ 1550 7150
 $Comp
 L power:GND #PWR02
 U 1 1 5DA9EE6D
-P 2650 6950
-F 0 "#PWR02" H 2650 6700 50  0001 C CNN
-F 1 "GND" H 2850 6900 50  0000 C CNN
-F 2 "" H 2650 6950 50  0001 C CNN
-F 3 "" H 2650 6950 50  0001 C CNN
-	1    2650 6950
+P 2300 7350
+F 0 "#PWR02" H 2300 7100 50  0001 C CNN
+F 1 "GND" H 2500 7300 50  0000 C CNN
+F 2 "" H 2300 7350 50  0001 C CNN
+F 3 "" H 2300 7350 50  0001 C CNN
+	1    2300 7350
 	1    0    0    -1  
 $EndComp
-Connection ~ 2650 6750
+Connection ~ 2300 7150
 Wire Wire Line
-	2150 5750 2850 5750
+	1800 6150 2500 6150
 Wire Wire Line
-	2650 6750 2850 6750
+	2300 7150 2500 7150
 Text Label 3000 1200 0    50   ~ 0
 ARP_3P3
 $Comp
@@ -344,87 +344,87 @@ VIDEO_DIGITAL
 $Comp
 L Connector_Generic:Conn_02x20_Odd_Even J7
 U 1 1 5D77C709
-P 6100 5700
-F 0 "J7" H 6150 6817 50  0000 C CNN
-F 1 "Conn_02x20_Odd_Even" H 6150 6726 50  0000 C CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_2x20_P2.00mm_Vertical" H 6100 5700 50  0001 C CNN
-F 3 "~" H 6100 5700 50  0001 C CNN
-	1    6100 5700
+P 5800 6000
+F 0 "J7" H 5850 7117 50  0000 C CNN
+F 1 "Conn_02x20_Odd_Even" H 5850 7026 50  0000 C CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_2x20_P2.00mm_Vertical" H 5800 6000 50  0001 C CNN
+F 3 "~" H 5800 6000 50  0001 C CNN
+	1    5800 6000
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR04
 U 1 1 5DAF1F2B
-P 5450 4650
-F 0 "#PWR04" H 5450 4400 50  0001 C CNN
-F 1 "GND" H 5455 4477 50  0000 C CNN
-F 2 "" H 5450 4650 50  0001 C CNN
-F 3 "" H 5450 4650 50  0001 C CNN
-	1    5450 4650
+P 5150 4950
+F 0 "#PWR04" H 5150 4700 50  0001 C CNN
+F 1 "GND" H 5155 4777 50  0000 C CNN
+F 2 "" H 5150 4950 50  0001 C CNN
+F 3 "" H 5150 4950 50  0001 C CNN
+	1    5150 4950
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+5V #PWR05
 U 1 1 5DAF2B68
-P 6650 4550
-F 0 "#PWR05" H 6650 4400 50  0001 C CNN
-F 1 "+5V" H 6665 4723 50  0000 C CNN
-F 2 "" H 6650 4550 50  0001 C CNN
-F 3 "" H 6650 4550 50  0001 C CNN
-	1    6650 4550
+P 6350 4850
+F 0 "#PWR05" H 6350 4700 50  0001 C CNN
+F 1 "+5V" H 6365 5023 50  0000 C CNN
+F 2 "" H 6350 4850 50  0001 C CNN
+F 3 "" H 6350 4850 50  0001 C CNN
+	1    6350 4850
 	1    0    0    -1  
 $EndComp
-Text Label 6600 5000 0    50   ~ 0
+Text Label 6300 5300 0    50   ~ 0
 DAC7
-Text Label 6600 5100 0    50   ~ 0
+Text Label 6300 5400 0    50   ~ 0
 DAC5
-Text Label 6600 5200 0    50   ~ 0
+Text Label 6300 5500 0    50   ~ 0
 DAC3
-Text Label 6600 5300 0    50   ~ 0
+Text Label 6300 5600 0    50   ~ 0
 DAC1
 Wire Wire Line
-	6400 4800 6650 4800
+	6100 5100 6350 5100
 Wire Wire Line
-	6650 4800 6650 4550
+	6350 5100 6350 4850
 Wire Wire Line
-	5700 4650 5700 4800
+	5400 4950 5400 5100
 Wire Wire Line
-	5700 4800 5900 4800
-Text GLabel 5900 5000 0    50   Input ~ 0
+	5400 5100 5600 5100
+Text GLabel 5600 5300 0    50   Input ~ 0
 DAC_CLK
 Wire Wire Line
-	5300 5400 5900 5400
+	5000 5700 5600 5700
 Wire Wire Line
-	5300 5300 5900 5300
+	5000 5600 5600 5600
 Wire Wire Line
-	5300 5200 5900 5200
+	5000 5500 5600 5500
 Wire Wire Line
-	5300 5100 5900 5100
+	5000 5400 5600 5400
 Entry Wire Line
-	5200 5000 5300 5100
+	4900 5300 5000 5400
 Entry Wire Line
-	5200 5100 5300 5200
+	4900 5400 5000 5500
 Entry Wire Line
-	5200 5200 5300 5300
+	4900 5500 5000 5600
 Entry Wire Line
-	5200 5300 5300 5400
-Text Label 5300 5400 0    50   ~ 0
+	4900 5600 5000 5700
+Text Label 5000 5700 0    50   ~ 0
 DAC0
-Text Label 5300 5300 0    50   ~ 0
+Text Label 5000 5600 0    50   ~ 0
 DAC2
-Text Label 5300 5200 0    50   ~ 0
+Text Label 5000 5500 0    50   ~ 0
 DAC4
-Text Label 5300 5100 0    50   ~ 0
+Text Label 5000 5400 0    50   ~ 0
 DAC6
 Entry Wire Line
-	6950 5000 7050 4900
+	6650 5300 6750 5200
 Entry Wire Line
-	6950 5100 7050 5000
+	6650 5400 6750 5300
 Entry Wire Line
-	6950 5200 7050 5100
+	6650 5500 6750 5400
 Entry Wire Line
-	6950 5300 7050 5200
-Text Label 5800 4250 0    50   ~ 0
+	6650 5600 6750 5500
+Text Label 5700 4550 0    50   ~ 0
 DAC[7..0]
 Wire Wire Line
 	5400 2500 5650 2500
@@ -438,61 +438,61 @@ Entry Wire Line
 	5650 2600 5750 2500
 Entry Wire Line
 	5650 2500 5750 2400
-Text Label 6000 2400 0    50   ~ 0
+Text Label 6100 2400 0    50   ~ 0
 DAC[7..0]
 Text GLabel 5800 2000 2    50   Output ~ 0
 DAC_CLK
 Wire Wire Line
 	5400 2000 5800 2000
 Wire Notes Line
-	4250 3850 1350 3850
+	3900 4250 1000 4250
 Wire Notes Line
-	1350 3850 1350 7100
+	1000 4250 1000 7500
 Wire Notes Line
-	1350 7100 4250 7100
+	1000 7500 3900 7500
 Wire Notes Line
-	4250 3850 4250 7100
-Text Notes 2500 3850 0    0    ~ 0
+	3900 4250 3900 7500
+Text Notes 2150 4250 0    0    ~ 0
 VIDEO PRIMARIO 1 Y 2\nEntradas
-Text Notes 4200 4150 2    50   ~ 10
+Text Notes 3850 4550 2    50   ~ 10
 Video Primario\nEntrada Radar\nSalida ADC-SoC
 Wire Wire Line
-	5450 4650 5700 4650
+	5150 4950 5400 4950
 Text Notes 1200 1900 0    50   ~ 0
 Señales de sincronismo de Acimut\nEntrada ADC-SoC
 Text Notes 4900 4000 0    50   ~ 0
 GPIO ADC_SoC
-Text Notes 6100 6950 0    50   ~ 0
+Text Notes 5800 7250 0    50   ~ 0
 DAC
-NoConn ~ 6400 5400
-NoConn ~ 6400 5500
-NoConn ~ 6400 5600
-NoConn ~ 6400 5700
-NoConn ~ 6400 5800
-NoConn ~ 5900 5500
-NoConn ~ 5900 5600
-NoConn ~ 5900 5700
-NoConn ~ 5900 5800
-NoConn ~ 5900 5900
-NoConn ~ 5900 6000
-NoConn ~ 6400 5900
-NoConn ~ 6400 6000
-NoConn ~ 5900 6100
-NoConn ~ 5900 6200
-NoConn ~ 5900 6300
-NoConn ~ 5900 6400
-NoConn ~ 5900 6500
-NoConn ~ 5900 6600
-NoConn ~ 5900 6700
-NoConn ~ 6400 6700
-NoConn ~ 6400 6600
-NoConn ~ 6400 6500
-NoConn ~ 6400 6400
-NoConn ~ 6400 6300
-NoConn ~ 6400 6200
-NoConn ~ 6400 6100
-NoConn ~ 5900 4900
-NoConn ~ 6400 4900
+NoConn ~ 6100 5700
+NoConn ~ 6100 5800
+NoConn ~ 6100 5900
+NoConn ~ 6100 6000
+NoConn ~ 6100 6100
+NoConn ~ 5600 5800
+NoConn ~ 5600 5900
+NoConn ~ 5600 6000
+NoConn ~ 5600 6100
+NoConn ~ 5600 6200
+NoConn ~ 5600 6300
+NoConn ~ 6100 6200
+NoConn ~ 6100 6300
+NoConn ~ 5600 6400
+NoConn ~ 5600 6500
+NoConn ~ 5600 6600
+NoConn ~ 5600 6700
+NoConn ~ 5600 6800
+NoConn ~ 5600 6900
+NoConn ~ 5600 7000
+NoConn ~ 6100 7000
+NoConn ~ 6100 6900
+NoConn ~ 6100 6800
+NoConn ~ 6100 6700
+NoConn ~ 6100 6600
+NoConn ~ 6100 6500
+NoConn ~ 6100 6400
+NoConn ~ 5600 5200
+NoConn ~ 6100 5200
 NoConn ~ 5400 3800
 NoConn ~ 5400 3700
 NoConn ~ 5400 3600
@@ -514,16 +514,16 @@ NoConn ~ 5400 2100
 $Comp
 L power:GND #PWR01
 U 1 1 5E33FF35
-P 2650 5300
-F 0 "#PWR01" H 2650 5050 50  0001 C CNN
-F 1 "GND" H 2655 5127 50  0000 C CNN
-F 2 "" H 2650 5300 50  0001 C CNN
-F 3 "" H 2650 5300 50  0001 C CNN
-	1    2650 5300
+P 2300 5700
+F 0 "#PWR01" H 2300 5450 50  0001 C CNN
+F 1 "GND" H 2305 5527 50  0000 C CNN
+F 2 "" H 2300 5700 50  0001 C CNN
+F 3 "" H 2300 5700 50  0001 C CNN
+	1    2300 5700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2650 5150 2650 5300
+	2300 5550 2300 5700
 $Comp
 L power:+5V #PWR08
 U 1 1 5E37AB35
@@ -611,26 +611,8 @@ $EndComp
 Text Label 4400 950  0    50   ~ 0
 ARP_3P3
 Wire Wire Line
-	2050 4150 2150 4150
-Wire Wire Line
-	2050 5750 2150 5750
-Wire Wire Line
-	2550 5150 2650 5150
-Wire Wire Line
-	2550 6750 2650 6750
-Wire Wire Line
-	1850 4150 2150 4150
-Wire Wire Line
-	1850 5750 2150 5750
-Wire Wire Line
-	1900 5150 2650 5150
-Wire Wire Line
-	1900 6750 2650 6750
-Wire Wire Line
 	5400 1900 8150 1900
 Connection ~ 8150 1900
-Wire Bus Line
-	5750 2400 6600 2400
 Wire Notes Line
 	7550 2650 11100 2650
 Wire Notes Line
@@ -824,13 +806,13 @@ Wire Wire Line
 	3800 950  5350 950 
 Connection ~ 3800 1200
 Wire Wire Line
-	6400 5000 6950 5000
+	6100 5300 6650 5300
 Wire Wire Line
-	6400 5100 6950 5100
+	6100 5400 6650 5400
 Wire Wire Line
-	6400 5200 6950 5200
+	6100 5500 6650 5500
 Wire Wire Line
-	6400 5300 6950 5300
+	6100 5600 6650 5600
 $Comp
 L power:GND #PWR016
 U 1 1 5DBB0821
@@ -928,13 +910,6 @@ Wire Wire Line
 	3600 2650 2650 2650
 Text Label 4100 2100 0    50   ~ 0
 PRF_3P3
-Wire Bus Line
-	5200 4250 6600 4250
-Wire Bus Line
-	6600 2400 6600 4250
-Connection ~ 6600 4250
-Wire Bus Line
-	6600 4250 7050 4250
 Text Notes 10950 2500 2    50   Italic 0
 U2_X: Amplificadores operacionales\nSalidas duplicadas para otros equipos\nTensión de salida: 5V
 Wire Wire Line
@@ -1031,7 +1006,7 @@ Wire Wire Line
 Wire Wire Line
 	5600 3300 5600 3350
 Wire Wire Line
-	2650 6750 2650 6950
+	2300 7150 2300 7350
 $Comp
 L Device:C C2
 U 1 1 5DB5AECB
@@ -1140,12 +1115,90 @@ Wire Wire Line
 	5350 1050 5150 1050
 Wire Wire Line
 	5150 1050 5150 1150
-Text Notes 2850 5650 0    50   ~ 0
+Text Notes 2500 6050 0    50   ~ 0
 JPx\nSelección de Carga de Entrada Rx\n\n
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5DC1C9BB
+P 7200 3450
+F 0 "H1" H 7300 3496 50  0000 L CNN
+F 1 "MountingHole" H 7300 3405 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 7200 3450 50  0001 C CNN
+F 3 "~" H 7200 3450 50  0001 C CNN
+	1    7200 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5DC1D30A
+P 7200 3950
+F 0 "H2" H 7300 3996 50  0000 L CNN
+F 1 "MountingHole" H 7300 3905 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 7200 3950 50  0001 C CNN
+F 3 "~" H 7200 3950 50  0001 C CNN
+	1    7200 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5DC1DC58
+P 7200 4400
+F 0 "H3" H 7300 4446 50  0000 L CNN
+F 1 "MountingHole" H 7300 4355 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 7200 4400 50  0001 C CNN
+F 3 "~" H 7200 4400 50  0001 C CNN
+	1    7200 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5DC1E686
+P 7200 4900
+F 0 "H4" H 7300 4946 50  0000 L CNN
+F 1 "MountingHole" H 7300 4855 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 7200 4900 50  0001 C CNN
+F 3 "~" H 7200 4900 50  0001 C CNN
+	1    7200 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H5
+U 1 1 5DC1F7A4
+P 7200 5400
+F 0 "H5" H 7300 5446 50  0000 L CNN
+F 1 "MountingHole" H 7300 5355 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 7200 5400 50  0001 C CNN
+F 3 "~" H 7200 5400 50  0001 C CNN
+	1    7200 5400
+	1    0    0    -1  
+$EndComp
 Wire Bus Line
-	7050 4250 7050 5200
+	6750 4550 6750 2400
 Wire Bus Line
-	5200 4250 5200 5300
+	5750 2400 6750 2400
+Connection ~ 6750 4550
+Wire Bus Line
+	4900 4550 6750 4550
+Wire Wire Line
+	1700 4550 1800 4550
+Wire Wire Line
+	1700 6150 1800 6150
+Wire Wire Line
+	2200 5550 2300 5550
+Wire Wire Line
+	2200 7150 2300 7150
+Wire Wire Line
+	1500 4550 1800 4550
+Wire Wire Line
+	1500 6150 1800 6150
+Wire Wire Line
+	1550 5550 2300 5550
+Wire Wire Line
+	1550 7150 2300 7150
+Wire Bus Line
+	6750 4550 6750 5500
+Wire Bus Line
+	4900 4550 4900 5600
 Wire Bus Line
 	5750 2400 5750 3100
 $EndSCHEMATC
