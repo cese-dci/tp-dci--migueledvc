@@ -178,6 +178,7 @@ F 4 "Texas Instruments" H 4100 2500 50  0001 L BNN "Fabricante"
 F 5 "High Speed Differential Comparator 14-SOIC 0 to 70" H 4100 2500 50  0001 L BNN "Descripción (inglés)"
 F 6 "296-47682-1-ND" H 4100 2500 50  0001 L BNN "Número de parte (Digi-Key)"
 F 7 "https://www.digikey.com/product-detail/en/texas-instruments/LM361MX-NOPB/296-47682-1-ND/3526971" H 4100 2500 50  0001 L BNN "Enlace"
+F 8 "296-47682-1-ND" H 4100 2500 50  0001 C CNN "Número de Parte (Digi-Key)"
 	1    4100 2500
 	1    0    0    -1  
 $EndComp
@@ -326,6 +327,11 @@ F 5 "Dual 2.7-V High Slew Rate Rail-To-Rail Output Operational Amplifier 8-SOIC 
 F 6 "TLV2772IDR" H 7300 2250 50  0001 L BNN "Campo6"
 F 7 "https://www.digikey.com/product-detail/en/texas-instruments/TLV2772IDR/296-1902-1-ND/405014?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" H 7300 2250 50  0001 L BNN "Campo7"
 F 8 "SOIC-8 Texas Instruments" H 7300 2250 50  0001 L BNN "Campo8"
+F 9 "General Purpose Amplifier 2 Circuit Rail-to-Rail 8-SOIC" H 7300 2250 50  0001 C CNN "Descripción (inglés)"
+F 10 "https://www.digikey.com/product-detail/en/texas-instruments/TLV2772IDR/296-1902-2-ND/374332" H 7300 2250 50  0001 C CNN "Enlace"
+F 11 "Texas Instruments" H 7300 2250 50  0001 C CNN "Fabricante"
+F 12 "296-1902-2-ND" H 7300 2250 50  0001 C CNN "Número de Parte (Digi-Key)"
+F 13 "296-1902-2-ND" H 7300 2250 50  0001 C CNN "Número de parte (Digi-Key)"
 	1    7300 2250
 	1    0    0    -1  
 $EndComp
@@ -363,6 +369,11 @@ F 0 "U32" H 9800 2961 50  0000 C CNN
 F 1 "SN74LVC2T45DCUR" H 9800 2870 50  0000 C CNN
 F 2 "Package_SO:VSSOP-8_2.4x2.1mm_P0.5mm" H 9850 3000 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn74lvc2t45.pdf" H 8900 3000 50  0001 C CNN
+F 4 "Dual-Bit Dual-Supply Bus Transceiver With Configurable Voltage" H 9800 3550 50  0001 C CNN "Descripción (inglés)"
+F 5 "https://www.digikey.com/product-detail/en/texas-instruments/SN74LVC2T45DCUR/296-17014-2-ND/657833" H 9800 3550 50  0001 C CNN "Enlace"
+F 6 "Texas Instruments" H 9800 3550 50  0001 C CNN "Fabricante"
+F 7 "296-17014-1-ND" H 9800 3550 50  0001 C CNN "Número de Parte (Digi-Key)"
+F 8 "296-17014-1-ND" H 9800 3550 50  0001 C CNN "Número de parte (Digi-Key)"
 	1    9800 3550
 	-1   0    0    -1  
 $EndComp
@@ -678,6 +689,7 @@ F 4 "Texas Instruments" H 4100 5200 50  0001 L BNN "Fabricante"
 F 5 "High Speed Differential Comparator 14-SOIC 0 to 70" H 4100 5200 50  0001 L BNN "Descripción (inglés)"
 F 6 "296-47682-1-ND" H 4100 5200 50  0001 L BNN "Número de parte (Digi-Key)"
 F 7 "https://www.digikey.com/product-detail/en/texas-instruments/LM361MX-NOPB/296-47682-1-ND/3526971" H 4100 5200 50  0001 L BNN "Enlace"
+F 8 "296-47682-1-ND" H 4100 5200 50  0001 C CNN "Número de Parte (Digi-Key)"
 	1    4100 5200
 	1    0    0    -1  
 $EndComp

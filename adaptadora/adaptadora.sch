@@ -272,9 +272,12 @@ F 1 "TLV2772IDR" H 8950 2079 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 8950 1150 50  0001 L BNN
 F 3 "http://www.ti.com/lit/ds/symlink/tlv2772.pdf" H 8950 1150 50  0001 L BNN
 F 4 "Texas Instruments" H 8950 1150 50  0001 L BNN "Fabricante"
-F 5 "Dual 2.7-V High Slew Rate Rail-To-Rail Output Operational Amplifier 8-SOIC -40 to 125" H 8950 1150 50  0001 L BNN "Descripción (inglés)"
-F 6 "296-1902-1-ND" H 8950 1150 50  0001 L BNN "Número de Parte (Digi-Key)"
-F 7 "https://www.digikey.com/product-detail/en/texas-instruments/TLV2772IDR/296-1902-1-ND/405014?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" H 8950 1150 50  0001 L BNN "Enlace"
+F 5 "General Purpose Amplifier 2 Circuit Rail-to-Rail 8-SOIC" H 8950 1150 50  0001 L BNN "Descripción (inglés)"
+F 6 "296-1902-2-ND" H 8950 1150 50  0001 L BNN "Número de Parte (Digi-Key)"
+F 7 "https://www.digikey.com/product-detail/en/texas-instruments/TLV2772IDR/296-1902-2-ND/374332" H 8950 1150 50  0001 L BNN "Enlace"
+F 8 "296-1902-2-ND" H 8950 1600 50  0001 C CNN "Número de parte (Digi-Key)"
+F 9 "" H 8950 1600 50  0001 C CNN "Campo9"
+F 10 "" H 8950 1600 50  0001 C CNN "Campo10"
 	1    8950 1600
 	1    0    0    -1  
 $EndComp
@@ -353,17 +356,6 @@ F 3 "~" H 5800 6000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR04
-U 1 1 5DAF1F2B
-P 5150 4950
-F 0 "#PWR04" H 5150 4700 50  0001 C CNN
-F 1 "GND" H 5155 4777 50  0000 C CNN
-F 2 "" H 5150 4950 50  0001 C CNN
-F 3 "" H 5150 4950 50  0001 C CNN
-	1    5150 4950
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+5V #PWR05
 U 1 1 5DAF2B68
 P 6350 4850
@@ -390,32 +382,6 @@ Wire Wire Line
 	5400 4950 5400 5100
 Wire Wire Line
 	5400 5100 5600 5100
-Text GLabel 5600 5300 0    50   Input ~ 0
-DAC_CLK
-Wire Wire Line
-	5000 5700 5600 5700
-Wire Wire Line
-	5000 5600 5600 5600
-Wire Wire Line
-	5000 5500 5600 5500
-Wire Wire Line
-	5000 5400 5600 5400
-Entry Wire Line
-	4900 5300 5000 5400
-Entry Wire Line
-	4900 5400 5000 5500
-Entry Wire Line
-	4900 5500 5000 5600
-Entry Wire Line
-	4900 5600 5000 5700
-Text Label 5000 5700 0    50   ~ 0
-DAC0
-Text Label 5000 5600 0    50   ~ 0
-DAC2
-Text Label 5000 5500 0    50   ~ 0
-DAC4
-Text Label 5000 5400 0    50   ~ 0
-DAC6
 Entry Wire Line
 	6650 5300 6750 5200
 Entry Wire Line
@@ -1195,6 +1161,43 @@ Wire Wire Line
 	1550 5550 2300 5550
 Wire Wire Line
 	1550 7150 2300 7150
+Text Label 5000 5400 0    50   ~ 0
+DAC6
+Text Label 5000 5500 0    50   ~ 0
+DAC4
+Text Label 5000 5600 0    50   ~ 0
+DAC2
+Text Label 5000 5700 0    50   ~ 0
+DAC0
+Entry Wire Line
+	4900 5600 5000 5700
+Entry Wire Line
+	4900 5500 5000 5600
+Entry Wire Line
+	4900 5400 5000 5500
+Entry Wire Line
+	4900 5300 5000 5400
+Wire Wire Line
+	5000 5400 5600 5400
+Wire Wire Line
+	5000 5500 5600 5500
+Wire Wire Line
+	5000 5600 5600 5600
+Wire Wire Line
+	5000 5700 5600 5700
+Text GLabel 5600 5300 0    50   Input ~ 0
+DAC_CLK
+$Comp
+L power:GND #PWR04
+U 1 1 5DAF1F2B
+P 5150 4950
+F 0 "#PWR04" H 5150 4700 50  0001 C CNN
+F 1 "GND" H 5155 4777 50  0000 C CNN
+F 2 "" H 5150 4950 50  0001 C CNN
+F 3 "" H 5150 4950 50  0001 C CNN
+	1    5150 4950
+	1    0    0    -1  
+$EndComp
 Wire Bus Line
 	6750 4550 6750 5500
 Wire Bus Line
