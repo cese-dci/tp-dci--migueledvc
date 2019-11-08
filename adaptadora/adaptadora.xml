@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>C:\Users\delar\tp-dci--migueledvc\adaptadora\adaptadora.sch</source>
-    <date>8/11/2019 15:16:03</date>
+    <date>8/11/2019 16:48:14</date>
     <tool>Eeschema (5.1.4)-1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -162,18 +162,17 @@
       <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
       <datasheet>http://www.ti.com/lit/ds/symlink/tlv2772.pdf</datasheet>
       <fields>
-        <field name="Descripción (inglés)">General Purpose Amplifier 2 Circuit Rail-to-Rail 8-SOIC</field>
+        <field name="Descripción (inglés)">Dual 2.7-V High Slew Rate Rail-To-Rail Output Operational Amplifier 8-SOIC -40 to 125</field>
         <field name="Enlace">https://www.digikey.com/product-detail/en/texas-instruments/TLV2772IDR/296-1902-2-ND/374332</field>
         <field name="Fabricante">Texas Instruments</field>
         <field name="Número de Parte (Digi-Key)">296-1902-2-ND</field>
-        <field name="Número de parte (Digi-Key)">296-1902-2-ND</field>
       </fields>
       <libsource lib="TLV2772IDR" part="TLV2772IDR" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5DB05057</tstamp>
     </comp>
     <comp ref="C1">
-      <value>0.1uF-50V</value>
+      <value>0_1uF-50V</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
@@ -205,7 +204,7 @@
       <tstamp>5D7CFA8E</tstamp>
     </comp>
     <comp ref="C7">
-      <value>2.2uF-35V</value>
+      <value>2_2uF-35V</value>
       <footprint>Capacitor_Tantalum_SMD:CP_EIA-6032-28_Kemet-C</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
@@ -213,7 +212,7 @@
       <tstamp>5DB5CC35</tstamp>
     </comp>
     <comp ref="C6">
-      <value>2.2uF-35V</value>
+      <value>2_2uF-35V</value>
       <footprint>Capacitor_Tantalum_SMD:CP_EIA-6032-28_Kemet-C</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
@@ -221,7 +220,7 @@
       <tstamp>5DB5C03E</tstamp>
     </comp>
     <comp ref="C5">
-      <value>0.1uF-50V</value>
+      <value>0_1uF-50V</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
@@ -229,7 +228,7 @@
       <tstamp>5DB5A1C5</tstamp>
     </comp>
     <comp ref="C4">
-      <value>0.1uF-50V</value>
+      <value>0_1uF-50V</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
@@ -253,7 +252,7 @@
       <tstamp>5D77C6C1</tstamp>
     </comp>
     <comp ref="C2">
-      <value>0.1uF-50V</value>
+      <value>0_1uF-50V</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
@@ -261,7 +260,7 @@
       <tstamp>5DB5AECB</tstamp>
     </comp>
     <comp ref="C3">
-      <value>2.2uF-35V</value>
+      <value>2_2uF-35V</value>
       <footprint>Capacitor_Tantalum_SMD:CP_EIA-6032-28_Kemet-C</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
@@ -365,7 +364,7 @@
       <tstamp>5DCAAD18</tstamp>
     </comp>
     <comp ref="C10">
-      <value>0.1uF-50V</value>
+      <value>0_1uF-50V</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
@@ -381,7 +380,6 @@
         <field name="Enlace">https://www.digikey.com/product-detail/en/texas-instruments/LM361MX-NOPB/296-47682-1-ND/3526971</field>
         <field name="Fabricante">Texas Instruments</field>
         <field name="Número de Parte (Digi-Key)">296-47682-1-ND</field>
-        <field name="Número de parte (Digi-Key)">296-47682-1-ND</field>
       </fields>
       <libsource lib="sincronismo-rescue" part="LM361MX_NOPB-LM361MX_NOPB" description=""/>
       <sheetpath names="/Señales de ACP y ARP/" tstamps="/5D9F8BB8/"/>
@@ -404,7 +402,7 @@
       <tstamp>5DCAAD21</tstamp>
     </comp>
     <comp ref="C12">
-      <value>0.1uF-50V</value>
+      <value>0_1uF-50V</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
@@ -412,7 +410,7 @@
       <tstamp>5DB2F954</tstamp>
     </comp>
     <comp ref="C14">
-      <value>0.1uF-50V</value>
+      <value>0_1uF-50V</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
@@ -424,18 +422,17 @@
       <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
       <datasheet>http://www.ti.com/lit/ds/symlink/tlv2772.pdf</datasheet>
       <fields>
-        <field name="Descripción (inglés)">General Purpose Amplifier 2 Circuit Rail-to-Rail 8-SOIC</field>
+        <field name="Descripción (inglés)">Dual 2.7-V High Slew Rate Rail-To-Rail Output Operational Amplifier 8-SOIC -40 to 125</field>
         <field name="Enlace">https://www.digikey.com/product-detail/en/texas-instruments/TLV2772IDR/296-1902-2-ND/374332</field>
         <field name="Fabricante">Texas Instruments</field>
         <field name="Número de Parte (Digi-Key)">296-1902-2-ND</field>
-        <field name="Número de parte (Digi-Key)">296-1902-2-ND</field>
       </fields>
       <libsource lib="TLV2772IDR" part="TLV2772IDR" description=""/>
       <sheetpath names="/Señales de ACP y ARP/" tstamps="/5D9F8BB8/"/>
       <tstamp>5DC9BD07</tstamp>
     </comp>
     <comp ref="C19">
-      <value>0.1uF-50V</value>
+      <value>0_1uF-50V</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
@@ -451,14 +448,13 @@
         <field name="Enlace">https://www.digikey.com/product-detail/en/texas-instruments/SN74LVC2T45DCUR/296-17014-2-ND/657833</field>
         <field name="Fabricante">Texas Instruments</field>
         <field name="Número de Parte (Digi-Key)">296-17014-1-ND</field>
-        <field name="Número de parte (Digi-Key)">296-17014-1-ND</field>
       </fields>
       <libsource lib="Logic_LevelTranslator" part="SN74LVC2T45DCUR" description="Dual-Bit Dual-Supply Bus Transceiver With Configurable Voltage Translation and 3-State Outputs, VSSOP-8"/>
       <sheetpath names="/Señales de ACP y ARP/" tstamps="/5D9F8BB8/"/>
       <tstamp>5DCAAD0E</tstamp>
     </comp>
     <comp ref="C16">
-      <value>0.1uF-50V</value>
+      <value>0_1uF-50V</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
@@ -530,7 +526,7 @@
       <tstamp>5DCAAD2A</tstamp>
     </comp>
     <comp ref="C11">
-      <value>0.1uF-50V</value>
+      <value>0_1uF-50V</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
@@ -546,7 +542,6 @@
         <field name="Enlace">https://www.digikey.com/product-detail/en/texas-instruments/LM361MX-NOPB/296-47682-1-ND/3526971</field>
         <field name="Fabricante">Texas Instruments</field>
         <field name="Número de Parte (Digi-Key)">296-47682-1-ND</field>
-        <field name="Número de parte (Digi-Key)">296-47682-1-ND</field>
       </fields>
       <libsource lib="sincronismo-rescue" part="LM361MX_NOPB-LM361MX_NOPB" description=""/>
       <sheetpath names="/Señales de ACP y ARP/" tstamps="/5D9F8BB8/"/>
@@ -569,7 +564,7 @@
       <tstamp>5DCAAD46</tstamp>
     </comp>
     <comp ref="C13">
-      <value>0.1uF-50V</value>
+      <value>0_1uF-50V</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
@@ -577,7 +572,7 @@
       <tstamp>5DCAAD47</tstamp>
     </comp>
     <comp ref="C15">
-      <value>0.1uF-50V</value>
+      <value>0_1uF-50V</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
@@ -589,11 +584,10 @@
       <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
       <datasheet>http://www.ti.com/lit/ds/symlink/tlv2772.pdf</datasheet>
       <fields>
-        <field name="Descripción (inglés)">General Purpose Amplifier 2 Circuit Rail-to-Rail 8-SOIC</field>
+        <field name="Descripción (inglés)">Dual 2.7-V High Slew Rate Rail-To-Rail Output Operational Amplifier 8-SOIC -40 to 125</field>
         <field name="Enlace">https://www.digikey.com/product-detail/en/texas-instruments/TLV2772IDR/296-1902-2-ND/374332</field>
         <field name="Fabricante">Texas Instruments</field>
         <field name="Número de Parte (Digi-Key)">296-1902-2-ND</field>
-        <field name="Número de parte (Digi-Key)">296-1902-2-ND</field>
       </fields>
       <libsource lib="TLV2772IDR" part="TLV2772IDR" description=""/>
       <sheetpath names="/Señales de ACP y ARP/" tstamps="/5D9F8BB8/"/>
@@ -616,7 +610,7 @@
       <tstamp>5E2599AC</tstamp>
     </comp>
     <comp ref="C17">
-      <value>0.1uF-50V</value>
+      <value>0_1uF-50V</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
@@ -624,7 +618,7 @@
       <tstamp>5DCAAD33</tstamp>
     </comp>
     <comp ref="C18">
-      <value>0.1uF-50V</value>
+      <value>0_1uF-50V</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
@@ -712,7 +706,7 @@
       <tstamp>5DC9BCF6</tstamp>
     </comp>
     <comp ref="C22">
-      <value>0.1uF-50V</value>
+      <value>0_1uF-50V</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
@@ -728,7 +722,6 @@
         <field name="Enlace">https://www.digikey.com/product-detail/en/texas-instruments/LM361MX-NOPB/296-47682-1-ND/3526971</field>
         <field name="Fabricante">Texas Instruments</field>
         <field name="Número de Parte (Digi-Key)">296-47682-1-ND</field>
-        <field name="Número de parte (Digi-Key)">296-47682-1-ND</field>
       </fields>
       <libsource lib="sincronismo-rescue" part="LM361MX_NOPB-LM361MX_NOPB" description=""/>
       <sheetpath names="/Señales de Video Secundario y PRF/" tstamps="/5DB488E7/"/>
@@ -751,7 +744,7 @@
       <tstamp>5DC9BD06</tstamp>
     </comp>
     <comp ref="C24">
-      <value>0.1uF-50V</value>
+      <value>0_1uF-50V</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
@@ -759,7 +752,7 @@
       <tstamp>5DCAAD13</tstamp>
     </comp>
     <comp ref="C26">
-      <value>0.1uF-50V</value>
+      <value>0_1uF-50V</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
@@ -771,23 +764,17 @@
       <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
       <datasheet>http://www.ti.com/lit/ds/symlink/tlv2772.pdf</datasheet>
       <fields>
-        <field name="Campo4">Texas Instruments</field>
-        <field name="Campo5">Dual 2.7-V High Slew Rate Rail-To-Rail Output Operational Amplifier 8-SOIC -40 to 125</field>
-        <field name="Campo6">TLV2772IDR</field>
-        <field name="Campo7">https://www.digikey.com/product-detail/en/texas-instruments/TLV2772IDR/296-1902-1-ND/405014?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol</field>
-        <field name="Campo8">SOIC-8 Texas Instruments</field>
-        <field name="Descripción (inglés)">General Purpose Amplifier 2 Circuit Rail-to-Rail 8-SOIC</field>
+        <field name="Descripción (inglés)">Dual 2.7-V High Slew Rate Rail-To-Rail Output Operational Amplifier 8-SOIC -40 to 125</field>
         <field name="Enlace">https://www.digikey.com/product-detail/en/texas-instruments/TLV2772IDR/296-1902-2-ND/374332</field>
         <field name="Fabricante">Texas Instruments</field>
         <field name="Número de Parte (Digi-Key)">296-1902-2-ND</field>
-        <field name="Número de parte (Digi-Key)">296-1902-2-ND</field>
       </fields>
       <libsource lib="TLV2772IDR" part="TLV2772IDR" description=""/>
       <sheetpath names="/Señales de Video Secundario y PRF/" tstamps="/5DB488E7/"/>
       <tstamp>5DCAAD22</tstamp>
     </comp>
     <comp ref="C31">
-      <value>0.1uF-50V</value>
+      <value>0_1uF-50V</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
@@ -803,14 +790,13 @@
         <field name="Enlace">https://www.digikey.com/product-detail/en/texas-instruments/SN74LVC2T45DCUR/296-17014-2-ND/657833</field>
         <field name="Fabricante">Texas Instruments</field>
         <field name="Número de Parte (Digi-Key)">296-17014-1-ND</field>
-        <field name="Número de parte (Digi-Key)">296-17014-1-ND</field>
       </fields>
       <libsource lib="Logic_LevelTranslator" part="SN74LVC2T45DCUR" description="Dual-Bit Dual-Supply Bus Transceiver With Configurable Voltage Translation and 3-State Outputs, VSSOP-8"/>
       <sheetpath names="/Señales de Video Secundario y PRF/" tstamps="/5DB488E7/"/>
       <tstamp>5DA3673D</tstamp>
     </comp>
     <comp ref="C28">
-      <value>0.1uF-50V</value>
+      <value>0_1uF-50V</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
@@ -882,7 +868,7 @@
       <tstamp>5DC9BD20</tstamp>
     </comp>
     <comp ref="C23">
-      <value>0.1uF-50V</value>
+      <value>0_1uF-50V</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
@@ -898,7 +884,6 @@
         <field name="Enlace">https://www.digikey.com/product-detail/en/texas-instruments/LM361MX-NOPB/296-47682-1-ND/3526971</field>
         <field name="Fabricante">Texas Instruments</field>
         <field name="Número de Parte (Digi-Key)">296-47682-1-ND</field>
-        <field name="Número de parte (Digi-Key)">296-47682-1-ND</field>
       </fields>
       <libsource lib="sincronismo-rescue" part="LM361MX_NOPB-LM361MX_NOPB" description=""/>
       <sheetpath names="/Señales de Video Secundario y PRF/" tstamps="/5DB488E7/"/>
@@ -921,7 +906,7 @@
       <tstamp>5E25996A</tstamp>
     </comp>
     <comp ref="C25">
-      <value>0.1uF-50V</value>
+      <value>0_1uF-50V</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
@@ -929,7 +914,7 @@
       <tstamp>5E259972</tstamp>
     </comp>
     <comp ref="C27">
-      <value>0.1uF-50V</value>
+      <value>0_1uF-50V</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
@@ -937,7 +922,7 @@
       <tstamp>5DCAAD48</tstamp>
     </comp>
     <comp ref="C30">
-      <value>0.1uF-50V</value>
+      <value>0_1uF-50V</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>

@@ -147,7 +147,7 @@ L Device:C C10
 U 1 1 5DCAAD0C
 P 3350 2950
 F 0 "C10" H 3400 3200 50  0000 R CNN
-F 1 "0.1uF-50V" H 3550 3300 50  0000 R CNN
+F 1 "0_1uF-50V" H 3550 3300 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 3388 2800 50  0001 C CNN
 F 3 "~" H 3350 2950 50  0001 C CNN
 	1    3350 2950
@@ -176,9 +176,8 @@ F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 4100 2500 50  0001 L BNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm361.pdf" H 4100 2500 50  0001 L BNN
 F 4 "Texas Instruments" H 4100 2500 50  0001 L BNN "Fabricante"
 F 5 "High Speed Differential Comparator 14-SOIC 0 to 70" H 4100 2500 50  0001 L BNN "Descripción (inglés)"
-F 6 "296-47682-1-ND" H 4100 2500 50  0001 L BNN "Número de parte (Digi-Key)"
+F 6 "296-47682-1-ND" H 4100 2500 50  0001 L BNN "Número de Parte (Digi-Key)"
 F 7 "https://www.digikey.com/product-detail/en/texas-instruments/LM361MX-NOPB/296-47682-1-ND/3526971" H 4100 2500 50  0001 L BNN "Enlace"
-F 8 "296-47682-1-ND" H 4100 2500 50  0001 C CNN "Número de Parte (Digi-Key)"
 	1    4100 2500
 	1    0    0    -1  
 $EndComp
@@ -264,7 +263,7 @@ L Device:C C12
 U 1 1 5DB2F954
 P 3150 1100
 F 0 "C12" H 2900 1150 50  0000 R CNN
-F 1 "0.1uF-50V" H 2600 1000 50  0000 L BNN
+F 1 "0_1uF-50V" H 2600 1000 50  0000 L BNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 3188 950 50  0001 C CNN
 F 3 "~" H 3150 1100 50  0001 C CNN
 	1    3150 1100
@@ -275,7 +274,7 @@ L Device:C C14
 U 1 1 5DCAAD24
 P 3150 1500
 F 0 "C14" H 3400 1550 50  0000 L CNN
-F 1 "0.1uF-50V" H 3300 1400 50  0000 L CNN
+F 1 "0_1uF-50V" H 3300 1400 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 3188 1350 50  0001 C CNN
 F 3 "~" H 3150 1500 50  0001 C CNN
 	1    3150 1500
@@ -334,10 +333,9 @@ F 1 "TLV2772IDR" H 7300 2729 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 7300 2250 50  0001 L BNN
 F 3 "http://www.ti.com/lit/ds/symlink/tlv2772.pdf" H 7300 2250 50  0001 L BNN
 F 4 "Texas Instruments" H 7300 2250 50  0001 L BNN "Fabricante"
-F 5 "General Purpose Amplifier 2 Circuit Rail-to-Rail 8-SOIC" H 7300 2250 50  0001 L BNN "Descripción (inglés)"
+F 5 "Dual 2.7-V High Slew Rate Rail-To-Rail Output Operational Amplifier 8-SOIC -40 to 125" H 7300 2250 50  0001 L BNN "Descripción (inglés)"
 F 6 "296-1902-2-ND" H 7300 2250 50  0001 L BNN "Número de Parte (Digi-Key)"
 F 7 "https://www.digikey.com/product-detail/en/texas-instruments/TLV2772IDR/296-1902-2-ND/374332" H 7300 2250 50  0001 L BNN "Enlace"
-F 8 "296-1902-2-ND" H 7300 2250 50  0001 C CNN "Número de parte (Digi-Key)"
 	1    7300 2250
 	1    0    0    -1  
 $EndComp
@@ -361,7 +359,7 @@ L Device:C C19
 U 1 1 5DCAAD26
 P 10150 2650
 F 0 "C19" V 9950 2650 50  0000 C CNN
-F 1 "0.1uF-50V" V 10300 2600 50  0000 C CNN
+F 1 "0_1uF-50V" V 10300 2600 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 10188 2500 50  0001 C CNN
 F 3 "~" H 10150 2650 50  0001 C CNN
 	1    10150 2650
@@ -376,10 +374,9 @@ F 1 "SN74LVC2T45DCUR" H 9800 2870 50  0000 C CNN
 F 2 "Package_SO:VSSOP-8_2.4x2.1mm_P0.5mm" H 9850 3000 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn74lvc2t45.pdf" H 8900 3000 50  0001 C CNN
 F 4 "Dual-Bit Dual-Supply Bus Transceiver With Configurable Voltage" H 9800 3550 50  0001 C CNN "Descripción (inglés)"
-F 5 "https://www.digikey.com/product-detail/en/texas-instruments/SN74LVC2T45DCUR/296-17014-2-ND/657833" H 9800 3550 50  0001 C CNN "Enlace"
-F 6 "Texas Instruments" H 9800 3550 50  0001 C CNN "Fabricante"
-F 7 "296-17014-1-ND" H 9800 3550 50  0001 C CNN "Número de Parte (Digi-Key)"
-F 8 "296-17014-1-ND" H 9800 3550 50  0001 C CNN "Número de parte (Digi-Key)"
+F 5 "Texas Instruments" H 9800 3550 50  0001 C CNN "Fabricante"
+F 6 "296-17014-1-ND" H 9800 3550 50  0001 C CNN "Número de Parte (Digi-Key)"
+F 7 "https://www.digikey.com/product-detail/en/texas-instruments/SN74LVC2T45DCUR/296-17014-2-ND/657833" H 9800 3550 50  0001 C CNN "Enlace"
 	1    9800 3550
 	-1   0    0    -1  
 $EndComp
@@ -453,7 +450,7 @@ L Device:C C16
 U 1 1 5DCAAD0D
 P 6450 1850
 F 0 "C16" H 6200 1750 50  0000 L CNN
-F 1 "0.1uF-50V" H 5950 1650 50  0000 L CNN
+F 1 "0_1uF-50V" H 5950 1650 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 6488 1700 50  0001 C CNN
 F 3 "~" H 6450 1850 50  0001 C CNN
 	1    6450 1850
@@ -664,7 +661,7 @@ L Device:C C11
 U 1 1 5E259930
 P 3350 5650
 F 0 "C11" H 3400 5900 50  0000 R CNN
-F 1 "0.1uF-50V" H 3550 6000 50  0000 R CNN
+F 1 "0_1uF-50V" H 3550 6000 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 3388 5500 50  0001 C CNN
 F 3 "~" H 3350 5650 50  0001 C CNN
 	1    3350 5650
@@ -693,9 +690,8 @@ F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 4100 5200 50  0001 L BNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm361.pdf" H 4100 5200 50  0001 L BNN
 F 4 "Texas Instruments" H 4100 5200 50  0001 L BNN "Fabricante"
 F 5 "High Speed Differential Comparator 14-SOIC 0 to 70" H 4100 5200 50  0001 L BNN "Descripción (inglés)"
-F 6 "296-47682-1-ND" H 4100 5200 50  0001 L BNN "Número de parte (Digi-Key)"
+F 6 "296-47682-1-ND" H 4100 5200 50  0001 L BNN "Número de Parte (Digi-Key)"
 F 7 "https://www.digikey.com/product-detail/en/texas-instruments/LM361MX-NOPB/296-47682-1-ND/3526971" H 4100 5200 50  0001 L BNN "Enlace"
-F 8 "296-47682-1-ND" H 4100 5200 50  0001 C CNN "Número de Parte (Digi-Key)"
 	1    4100 5200
 	1    0    0    -1  
 $EndComp
@@ -779,7 +775,7 @@ L Device:C C13
 U 1 1 5DCAAD47
 P 3250 6700
 F 0 "C13" H 3135 6746 50  0000 R CNN
-F 1 "0.1uF-50V" H 3135 6655 50  0000 R CNN
+F 1 "0_1uF-50V" H 3135 6655 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 3288 6550 50  0001 C CNN
 F 3 "~" H 3250 6700 50  0001 C CNN
 	1    3250 6700
@@ -790,7 +786,7 @@ L Device:C C15
 U 1 1 5E259978
 P 3250 7100
 F 0 "C15" H 3365 7146 50  0000 L CNN
-F 1 "0.1uF-50V" H 3365 7055 50  0000 L CNN
+F 1 "0_1uF-50V" H 3365 7055 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 3288 6950 50  0001 C CNN
 F 3 "~" H 3250 7100 50  0001 C CNN
 	1    3250 7100
@@ -840,10 +836,9 @@ F 1 "TLV2772IDR" H 7300 5129 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 7300 4650 50  0001 L BNN
 F 3 "http://www.ti.com/lit/ds/symlink/tlv2772.pdf" H 7300 4650 50  0001 L BNN
 F 4 "Texas Instruments" H 7300 4650 50  0001 L BNN "Fabricante"
-F 5 "General Purpose Amplifier 2 Circuit Rail-to-Rail 8-SOIC" H 7300 4650 50  0001 L BNN "Descripción (inglés)"
+F 5 "Dual 2.7-V High Slew Rate Rail-To-Rail Output Operational Amplifier 8-SOIC -40 to 125" H 7300 4650 50  0001 L BNN "Descripción (inglés)"
 F 6 "296-1902-2-ND" H 7300 4650 50  0001 L BNN "Número de Parte (Digi-Key)"
 F 7 "https://www.digikey.com/product-detail/en/texas-instruments/TLV2772IDR/296-1902-2-ND/374332" H 7300 4650 50  0001 L BNN "Enlace"
-F 8 "296-1902-2-ND" H 7300 4650 50  0001 C CNN "Número de parte (Digi-Key)"
 	1    7300 4650
 	1    0    0    -1  
 $EndComp
@@ -919,7 +914,7 @@ L Device:C C17
 U 1 1 5DCAAD33
 P 6450 4250
 F 0 "C17" H 6200 4250 50  0000 L CNN
-F 1 "0.1uF-50V" H 6000 4150 50  0000 L CNN
+F 1 "0_1uF-50V" H 6000 4150 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 6488 4100 50  0001 C CNN
 F 3 "~" H 6450 4250 50  0001 C CNN
 	1    6450 4250
@@ -930,7 +925,7 @@ L Device:C C18
 U 1 1 5E08C2FE
 P 9450 2650
 F 0 "C18" V 9250 2650 50  0000 C CNN
-F 1 "0.1uF-50V" V 9600 2700 50  0000 C CNN
+F 1 "0_1uF-50V" V 9600 2700 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 9488 2500 50  0001 C CNN
 F 3 "~" H 9450 2650 50  0001 C CNN
 	1    9450 2650
