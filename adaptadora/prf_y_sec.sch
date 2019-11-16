@@ -42,7 +42,7 @@ U 1 1 5DC9BCF8
 P 2000 2900
 F 0 "D5" V 1954 2979 50  0000 L CNN
 F 1 "D_TVS" V 2045 2979 50  0000 L CNN
-F 2 "Diode_SMD:D_0201_0603Metric" H 2000 2900 50  0001 C CNN
+F 2 "Diode_THT:D_DO-15_P10.16mm_Horizontal" H 2000 2900 50  0001 C CNN
 F 3 "~" H 2000 2900 50  0001 C CNN
 	1    2000 2900
 	0    1    1    0   
@@ -86,7 +86,7 @@ U 1 1 5DC9BCF6
 P 1100 2400
 F 0 "JP7" V 1054 2487 50  0000 L CNN
 F 1 "Jumper_3_Open" V 1145 2487 50  0000 L CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_NumberLabels" H 1100 2400 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 1100 2400 50  0001 C CNN
 F 3 "~" H 1100 2400 50  0001 C CNN
 	1    1100 2400
 	0    1    1    0   
@@ -172,7 +172,7 @@ U 1 1 5DC9BCFB
 P 4100 2500
 F 0 "U13" H 4100 3170 50  0000 C CNN
 F 1 "LM361MX_NOPB" H 4100 3079 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 4100 2500 50  0001 L BNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 4100 2500 50  0001 L BNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm361.pdf" H 4100 2500 50  0001 L BNN
 F 4 "Texas Instruments" H 4100 2500 50  0001 L BNN "Fabricante"
 F 5 "High Speed Differential Comparator 14-SOIC 0 to 70" H 4100 2500 50  0001 L BNN "Descripción (inglés)"
@@ -226,7 +226,7 @@ U 1 1 5DCAAD20
 P 5400 2250
 F 0 "JP9" V 5354 2337 50  0000 L CNN
 F 1 "Jumper_3_Open" V 5445 2337 50  0000 L CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_NumberLabels" H 5400 2250 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 5400 2250 50  0001 C CNN
 F 3 "~" H 5400 2250 50  0001 C CNN
 	1    5400 2250
 	0    -1   1    0   
@@ -489,7 +489,7 @@ U 1 1 5E2598D6
 P 2000 5600
 F 0 "D6" V 1954 5679 50  0000 L CNN
 F 1 "D_TVS" V 2045 5679 50  0000 L CNN
-F 2 "Diode_SMD:D_0201_0603Metric" H 2000 5600 50  0001 C CNN
+F 2 "Diode_THT:D_DO-15_P10.16mm_Horizontal" H 2000 5600 50  0001 C CNN
 F 3 "~" H 2000 5600 50  0001 C CNN
 	1    2000 5600
 	0    1    1    0   
@@ -544,7 +544,7 @@ U 1 1 5DC9BD20
 P 1100 5100
 F 0 "JP8" V 1054 5187 50  0000 L CNN
 F 1 "Jumper_3_Open" V 1145 5187 50  0000 L CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_NumberLabels" H 1100 5100 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 1100 5100 50  0001 C CNN
 F 3 "~" H 1100 5100 50  0001 C CNN
 	1    1100 5100
 	0    1    1    0   
@@ -675,7 +675,7 @@ U 1 1 5DC9BD27
 P 4100 5200
 F 0 "U14" H 4100 5870 50  0000 C CNN
 F 1 "LM361MX_NOPB" H 4100 5779 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 4100 5200 50  0001 L BNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 4100 5200 50  0001 L BNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm361.pdf" H 4100 5200 50  0001 L BNN
 F 4 "Texas Instruments" H 4100 5200 50  0001 L BNN "Fabricante"
 F 5 "High Speed Differential Comparator 14-SOIC 0 to 70" H 4100 5200 50  0001 L BNN "Descripción (inglés)"
@@ -729,7 +729,7 @@ U 1 1 5DCAAD31
 P 5400 4950
 F 0 "JP10" V 5354 5037 50  0000 L CNN
 F 1 "Jumper_3_Open" V 5445 5037 50  0000 L CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_NumberLabels" H 5400 4950 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 5400 4950 50  0001 C CNN
 F 3 "~" H 5400 4950 50  0001 C CNN
 	1    5400 4950
 	0    -1   1    0   

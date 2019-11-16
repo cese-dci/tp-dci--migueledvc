@@ -31,7 +31,7 @@ U 1 1 5DA8C642
 P 1800 4950
 F 0 "JP1" V 1754 5037 50  0000 L CNN
 F 1 "Jumper_3_Open" V 1845 5037 50  0000 L CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_NumberLabels" H 1800 4950 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 1800 4950 50  0001 C CNN
 F 3 "~" H 1800 4950 50  0001 C CNN
 	1    1800 4950
 	0    1    1    0   
@@ -64,7 +64,7 @@ U 1 1 5DA90213
 P 2800 5250
 F 0 "D1" V 2754 5329 50  0000 L CNN
 F 1 "D_TVS" V 2845 5329 50  0000 L CNN
-F 2 "Diode_SMD:D_0201_0603Metric" H 2800 5250 50  0001 C CNN
+F 2 "Diode_THT:D_DO-15_P10.16mm_Horizontal" H 2800 5250 50  0001 C CNN
 F 3 "~" H 2800 5250 50  0001 C CNN
 	1    2800 5250
 	0    1    1    0   
@@ -138,7 +138,7 @@ U 1 1 5DA9EE3A
 P 1800 6550
 F 0 "JP2" V 1754 6637 50  0000 L CNN
 F 1 "Jumper_3_Open" V 1845 6637 50  0000 L CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_NumberLabels" H 1800 6550 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 1800 6550 50  0001 C CNN
 F 3 "~" H 1800 6550 50  0001 C CNN
 	1    1800 6550
 	0    1    1    0   
@@ -171,7 +171,7 @@ U 1 1 5DA9EE4C
 P 2800 6850
 F 0 "D2" V 2754 6929 50  0000 L CNN
 F 1 "D_TVS" V 2845 6929 50  0000 L CNN
-F 2 "Diode_SMD:D_0201_0603Metric" H 2800 6850 50  0001 C CNN
+F 2 "Diode_THT:D_DO-15_P10.16mm_Horizontal" H 2800 6850 50  0001 C CNN
 F 3 "~" H 2800 6850 50  0001 C CNN
 	1    2800 6850
 	0    1    1    0   

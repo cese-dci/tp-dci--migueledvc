@@ -42,7 +42,7 @@ U 1 1 5DCAAD1A
 P 2000 2900
 F 0 "D3" V 1954 2979 50  0000 L CNN
 F 1 "D_TVS" V 2045 2979 50  0000 L CNN
-F 2 "Diode_SMD:D_0201_0603Metric" H 2000 2900 50  0001 C CNN
+F 2 "Diode_THT:D_DO-15_P10.16mm_Horizontal" H 2000 2900 50  0001 C CNN
 F 3 "~" H 2000 2900 50  0001 C CNN
 	1    2000 2900
 	0    1    1    0   
@@ -172,11 +172,11 @@ U 1 1 5DCAAD1C
 P 4100 2500
 F 0 "U11" H 4100 3170 50  0000 C CNN
 F 1 "LM361MX_NOPB" H 4100 3079 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 4100 2500 50  0001 L BNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 4100 2500 50  0001 L BNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm361.pdf" H 4100 2500 50  0001 L BNN
 F 4 "Texas Instruments" H 4100 2500 50  0001 L BNN "Fabricante"
 F 5 "High Speed Differential Comparator 14-SOIC 0 to 70" H 4100 2500 50  0001 L BNN "Descripción (inglés)"
-F 6 "296-47682-1-ND" H 4100 2500 50  0001 L BNN "Número de parte (Digi-Key)"
+F 6 "296-47682-1-ND" H 4100 2500 50  0001 L BNN "Número de Parte (Digi-Key)"
 F 7 "https://www.digikey.com/product-detail/en/texas-instruments/LM361MX-NOPB/296-47682-1-ND/3526971" H 4100 2500 50  0001 L BNN "Enlace"
 	1    4100 2500
 	1    0    0    -1  
@@ -500,7 +500,7 @@ U 1 1 5DCAAD3F
 P 2000 5600
 F 0 "D4" V 1954 5679 50  0000 L CNN
 F 1 "D_TVS" V 2045 5679 50  0000 L CNN
-F 2 "Diode_SMD:D_0201_0603Metric" H 2000 5600 50  0001 C CNN
+F 2 "Diode_THT:D_DO-15_P10.16mm_Horizontal" H 2000 5600 50  0001 C CNN
 F 3 "~" H 2000 5600 50  0001 C CNN
 	1    2000 5600
 	0    1    1    0   
@@ -686,7 +686,7 @@ U 1 1 5DCAAD2F
 P 4100 5200
 F 0 "U12" H 4100 5870 50  0000 C CNN
 F 1 "LM361MX_NOPB" H 4100 5779 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 4100 5200 50  0001 L BNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 4100 5200 50  0001 L BNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm361.pdf" H 4100 5200 50  0001 L BNN
 F 4 "Texas Instruments" H 4100 5200 50  0001 L BNN "Fabricante"
 F 5 "High Speed Differential Comparator 14-SOIC 0 to 70" H 4100 5200 50  0001 L BNN "Descripción (inglés)"
