@@ -6,7 +6,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 3
 Title ""
-Date "2019-10-24"
+Date "2019-11-19"
 Rev "Rev 0"
 Comp "Diseño de Circuítos Impresos - CESE"
 Comment1 "Dibujó: Miguel del Valle"
