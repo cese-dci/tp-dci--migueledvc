@@ -175,9 +175,9 @@ F 1 "LM361MX_NOPB" H 4100 3079 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 4100 2500 50  0001 L BNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm361.pdf" H 4100 2500 50  0001 L BNN
 F 4 "Texas Instruments" H 4100 2500 50  0001 L BNN "Fabricante"
-F 5 "High Speed Differential Comparator 14-SOIC 0 to 70" H 4100 2500 50  0001 L BNN "Descripción (inglés)"
-F 6 "296-47682-1-ND" H 4100 2500 50  0001 L BNN "Número de Parte (Digi-Key)"
-F 7 "https://www.digikey.com/product-detail/en/texas-instruments/LM361MX-NOPB/296-47682-1-ND/3526971" H 4100 2500 50  0001 L BNN "Enlace"
+F 5 "High Speed Differential Comparator" H 4100 2500 50  0001 L BNN "Descripción (inglés)"
+F 6 "LM361N/NOPB-ND" H 4100 2500 50  0001 L BNN "Número de Parte (Digi-Key)"
+F 7 "https://www.digikey.com/product-detail/en/texas-instruments/LM361N-NOPB/LM361N-NOPB-ND/32491" H 4100 2500 50  0001 L BNN "Enlace"
 	1    4100 2500
 	1    0    0    -1  
 $EndComp
@@ -678,9 +678,9 @@ F 1 "LM361MX_NOPB" H 4100 5779 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 4100 5200 50  0001 L BNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm361.pdf" H 4100 5200 50  0001 L BNN
 F 4 "Texas Instruments" H 4100 5200 50  0001 L BNN "Fabricante"
-F 5 "High Speed Differential Comparator 14-SOIC 0 to 70" H 4100 5200 50  0001 L BNN "Descripción (inglés)"
-F 6 "296-47682-1-ND" H 4100 5200 50  0001 L BNN "Número de Parte (Digi-Key)"
-F 7 "https://www.digikey.com/product-detail/en/texas-instruments/LM361MX-NOPB/296-47682-1-ND/3526971" H 4100 5200 50  0001 L BNN "Enlace"
+F 5 "High Speed Differential Comparator" H 4100 5200 50  0001 L BNN "Descripción (inglés)"
+F 6 "LM361N/NOPB-ND" H 4100 5200 50  0001 L BNN "Número de Parte (Digi-Key)"
+F 7 "https://www.digikey.com/product-detail/en/texas-instruments/LM361N-NOPB/LM361N-NOPB-ND/32491" H 4100 5200 50  0001 L BNN "Enlace"
 	1    4100 5200
 	1    0    0    -1  
 $EndComp

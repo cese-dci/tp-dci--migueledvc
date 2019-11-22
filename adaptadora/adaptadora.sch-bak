@@ -932,7 +932,7 @@ Wire Wire Line
 Wire Wire Line
 	5100 5350 6200 5350
 Wire Wire Line
-	6700 5450 7900 5450
+	6700 5450 7350 5450
 Wire Notes Line
 	10800 750  10800 3800
 Wire Notes Line
@@ -1037,4 +1037,21 @@ Wire Wire Line
 Wire Wire Line
 	7000 5250 7000 5300
 NoConn ~ 6200 5250
+NoConn ~ 2400 5800
+$Comp
+L Connector:TestPoint TP9
+U 1 1 5DD7DB8A
+P 7350 5650
+F 0 "TP9" H 7293 5676 50  0000 R CNN
+F 1 "TestPoint" H 7293 5767 50  0000 R CNN
+F 2 "adaptadora:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm" H 7550 5650 50  0001 C CNN
+F 3 "~" H 7550 5650 50  0001 C CNN
+	1    7350 5650
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	7350 5650 7350 5450
+Connection ~ 7350 5450
+Wire Wire Line
+	7350 5450 7900 5450
 $EndSCHEMATC
