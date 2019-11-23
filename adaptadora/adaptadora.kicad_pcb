@@ -594,12 +594,12 @@
       (net 1 GND))
     (pad 2 thru_hole circle (at -2.54 2.54) (size 2.25 2.25) (drill 1.7) (layers *.Cu *.Mask)
       (net 1 GND))
-    (model ${KISYS3DMOD}/Connector_Coaxial.3dshapes/SMA_Amphenol_901-144_Vertical.wrl
+    (model ${KIPRJMOD}/shapes3D/SMA_Amphenol_901-144_Vertical.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "${KISYS3DMOD}/Connector_Coaxial.3dshapes/User Library-5-1814832-1.STEP"
+    (model "${KIPRJMOD}/shapes3D/User Library-5-1814832-1.STEP"
       (offset (xyz 0 0 1))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -1903,7 +1903,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model ${KISYS3DMOD}/Poncho_L86.3dshapes/SMA-angled.wrl
+    (model ${KIPRJMOD}/shapes3D/SMA-angled.wrl
       (offset (xyz 0 0 -3))
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz 0 0 0))
@@ -1947,12 +1947,12 @@
       (net 1 GND))
     (pad 1 thru_hole circle (at 0 0 90) (size 2.05 2.05) (drill 1.5) (layers *.Cu *.Mask)
       (net 26 "Net-(J11-Pad1)"))
-    (model ${KISYS3DMOD}/Connector_Coaxial.3dshapes/SMA_Amphenol_901-144_Vertical.wrl
+    (model ${KIPRJMOD}/shapes3D/SMA_Amphenol_901-144_Vertical.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "${KISYS3DMOD}/Connector_Coaxial.3dshapes/User Library-5-1814832-1.STEP"
+    (model "${KIPRJMOD}/shapes3D/User Library-5-1814832-1.STEP"
       (offset (xyz 0 0 1))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -1996,12 +1996,12 @@
       (net 1 GND))
     (pad 1 thru_hole circle (at 0 0 90) (size 2.05 2.05) (drill 1.5) (layers *.Cu *.Mask)
       (net 25 "Net-(J10-Pad1)"))
-    (model ${KISYS3DMOD}/Connector_Coaxial.3dshapes/SMA_Amphenol_901-144_Vertical.wrl
+    (model ${KIPRJMOD}/shapes3D/SMA_Amphenol_901-144_Vertical.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "${KISYS3DMOD}/Connector_Coaxial.3dshapes/User Library-5-1814832-1.STEP"
+    (model "${KIPRJMOD}/shapes3D/User Library-5-1814832-1.STEP"
       (offset (xyz 0 0 1))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -2299,12 +2299,12 @@
       (net 1 GND))
     (pad 2 thru_hole circle (at -2.54 2.54) (size 2.25 2.25) (drill 1.7) (layers *.Cu *.Mask)
       (net 1 GND))
-    (model ${KISYS3DMOD}/Connector_Coaxial.3dshapes/SMA_Amphenol_901-144_Vertical.wrl
+    (model ${KIPRJMOD}/shapes3D/SMA_Amphenol_901-144_Vertical.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model ${KISYS3DMOD}/Poncho_L86.3dshapes/SMA-angled.wrl
+    (model ${KIPRJMOD}/shapes3D/SMA-angled.wrl
       (offset (xyz 0 0 -3))
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz 0 0 0))
@@ -2348,12 +2348,12 @@
       (net 1 GND))
     (pad 1 thru_hole circle (at 0 0) (size 2.05 2.05) (drill 1.5) (layers *.Cu *.Mask)
       (net 28 "Net-(J13-Pad1)"))
-    (model ${KISYS3DMOD}/Connector_Coaxial.3dshapes/SMA_Amphenol_901-144_Vertical.wrl
+    (model ${KIPRJMOD}/shapes3D/SMA_Amphenol_901-144_Vertical.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model ${KISYS3DMOD}/Poncho_L86.3dshapes/SMA-angled.wrl
+    (model ${KIPRJMOD}/shapes3D/SMA-angled.wrl
       (offset (xyz 0 0 -3))
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz 0 0 0))
@@ -2397,12 +2397,12 @@
       (net 1 GND))
     (pad 2 thru_hole circle (at -2.54 2.54) (size 2.25 2.25) (drill 1.7) (layers *.Cu *.Mask)
       (net 1 GND))
-    (model ${KISYS3DMOD}/Connector_Coaxial.3dshapes/SMA_Amphenol_901-144_Vertical.wrl
+    (model ${KIPRJMOD}/shapes3D/SMA_Amphenol_901-144_Vertical.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model ${KISYS3DMOD}/Poncho_L86.3dshapes/SMA-angled.wrl
+    (model ${KIPRJMOD}/shapes3D/SMA-angled.wrl
       (offset (xyz 0 0 -3))
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz 0 0 0))
@@ -3649,12 +3649,12 @@
       (net 1 GND))
     (pad 2 thru_hole circle (at -2.54 2.54) (size 2.25 2.25) (drill 1.7) (layers *.Cu *.Mask)
       (net 1 GND))
-    (model ${KISYS3DMOD}/Connector_Coaxial.3dshapes/SMA_Amphenol_901-144_Vertical.wrl
+    (model ${KIPRJMOD}/shapes3D/SMA_Amphenol_901-144_Vertical.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model ${KISYS3DMOD}/Poncho_L86.3dshapes/SMA-angled.wrl
+    (model ${KIPRJMOD}/shapes3D/SMA-angled.wrl
       (offset (xyz 0 0 -3))
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz 0 0 0))
@@ -3698,12 +3698,12 @@
       (net 1 GND))
     (pad 1 thru_hole circle (at 0 0 180) (size 2.05 2.05) (drill 1.5) (layers *.Cu *.Mask)
       (net 10 "Net-(D1-Pad1)"))
-    (model ${KISYS3DMOD}/Connector_Coaxial.3dshapes/SMA_Amphenol_901-144_Vertical.wrl
+    (model ${KIPRJMOD}/shapes3D/SMA_Amphenol_901-144_Vertical.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "${KISYS3DMOD}/Connector_Coaxial.3dshapes/User Library-5-1814832-1.STEP"
+    (model "${KIPRJMOD}/shapes3D/User Library-5-1814832-1.STEP"
       (offset (xyz 0 0 1))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -3747,12 +3747,12 @@
       (net 1 GND))
     (pad 1 thru_hole circle (at 0 0) (size 2.05 2.05) (drill 1.5) (layers *.Cu *.Mask)
       (net 11 "Net-(D2-Pad1)"))
-    (model ${KISYS3DMOD}/Connector_Coaxial.3dshapes/SMA_Amphenol_901-144_Vertical.wrl
+    (model ${KIPRJMOD}/shapes3D/SMA_Amphenol_901-144_Vertical.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "${KISYS3DMOD}/Connector_Coaxial.3dshapes/User Library-5-1814832-1.STEP"
+    (model "${KIPRJMOD}/shapes3D/User Library-5-1814832-1.STEP"
       (offset (xyz 0 0 1))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -3920,12 +3920,12 @@
       (net 1 GND))
     (pad 2 thru_hole circle (at -2.54 2.54) (size 2.25 2.25) (drill 1.7) (layers *.Cu *.Mask)
       (net 1 GND))
-    (model ${KISYS3DMOD}/Connector_Coaxial.3dshapes/SMA_Amphenol_901-144_Vertical.wrl
+    (model ${KIPRJMOD}/shapes3D/SMA_Amphenol_901-144_Vertical.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "${KISYS3DMOD}/Connector_Coaxial.3dshapes/User Library-5-1814832-1.STEP"
+    (model "${KIPRJMOD}/shapes3D/User Library-5-1814832-1.STEP"
       (offset (xyz 0 0 1))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -3969,12 +3969,12 @@
       (net 1 GND))
     (pad 1 thru_hole circle (at 0 0) (size 2.05 2.05) (drill 1.5) (layers *.Cu *.Mask)
       (net 30 "Net-(J15-Pad1)"))
-    (model ${KISYS3DMOD}/Connector_Coaxial.3dshapes/SMA_Amphenol_901-144_Vertical.wrl
+    (model ${KIPRJMOD}/shapes3D/SMA_Amphenol_901-144_Vertical.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "${KISYS3DMOD}/Connector_Coaxial.3dshapes/User Library-5-1814832-1.STEP"
+    (model "${KIPRJMOD}/shapes3D/User Library-5-1814832-1.STEP"
       (offset (xyz 0 0 1))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -4018,12 +4018,12 @@
       (net 1 GND))
     (pad 1 thru_hole circle (at 0 0) (size 2.05 2.05) (drill 1.5) (layers *.Cu *.Mask)
       (net 31 "Net-(J16-Pad1)"))
-    (model ${KISYS3DMOD}/Connector_Coaxial.3dshapes/SMA_Amphenol_901-144_Vertical.wrl
+    (model ${KIPRJMOD}/shapes3D/SMA_Amphenol_901-144_Vertical.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "${KISYS3DMOD}/Connector_Coaxial.3dshapes/User Library-5-1814832-1.STEP"
+    (model "${KIPRJMOD}/shapes3D/User Library-5-1814832-1.STEP"
       (offset (xyz 0 0 1))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -4067,12 +4067,12 @@
       (net 1 GND))
     (pad 2 thru_hole circle (at -2.54 2.54) (size 2.25 2.25) (drill 1.7) (layers *.Cu *.Mask)
       (net 1 GND))
-    (model ${KISYS3DMOD}/Connector_Coaxial.3dshapes/SMA_Amphenol_901-144_Vertical.wrl
+    (model ${KIPRJMOD}/shapes3D/SMA_Amphenol_901-144_Vertical.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "${KISYS3DMOD}/Connector_Coaxial.3dshapes/User Library-5-1814832-1.STEP"
+    (model "${KIPRJMOD}/shapes3D/User Library-5-1814832-1.STEP"
       (offset (xyz 0 0 1))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -4116,12 +4116,12 @@
       (net 1 GND))
     (pad 2 thru_hole circle (at -2.54 2.54) (size 2.25 2.25) (drill 1.7) (layers *.Cu *.Mask)
       (net 1 GND))
-    (model ${KISYS3DMOD}/Connector_Coaxial.3dshapes/SMA_Amphenol_901-144_Vertical.wrl
+    (model ${KIPRJMOD}/shapes3D/SMA_Amphenol_901-144_Vertical.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "${KISYS3DMOD}/Connector_Coaxial.3dshapes/User Library-5-1814832-1.STEP"
+    (model "${KIPRJMOD}/shapes3D/User Library-5-1814832-1.STEP"
       (offset (xyz 0 0 1))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))

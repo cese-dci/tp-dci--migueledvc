@@ -3,7 +3,7 @@
 Placa adaptadora de señales de radar
 ====================================
 
-+ El presente documento presenta la idea de un circuíto adaptador de señales típicas de un radar.
++ El presente documento presenta la idea de un circuito adaptador de señales típicas de un radar.
 
 + No se especifica un modelo de radar en particular.
 
